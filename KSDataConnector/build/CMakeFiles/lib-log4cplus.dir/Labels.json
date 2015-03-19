@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/lib-log4cplus"
+		},
+		
+		{
+			"file" : "/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/lib-log4cplus.rule"
+		},
+		
+		{
+			"file" : "/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/lib-log4cplus-complete.rule"
+		},
+		
+		{
+			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-install.rule"
+		},
+		
+		{
+			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-mkdir.rule"
+		},
+		
+		{
+			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-download.rule"
+		},
+		
+		{
+			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-update.rule"
+		},
+		
+		{
+			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-patch.rule"
+		},
+		
+		{
+			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-configure.rule"
+		},
+		
+		{
+			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "lib-log4cplus" ],
+		"name" : "lib-log4cplus"
+	}
+}

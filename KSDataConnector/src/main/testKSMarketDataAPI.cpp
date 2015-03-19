@@ -25,6 +25,7 @@ using namespace std;
 
 using namespace KingstarAPI;
 
+Logger logger = Logger::getInstance(LOG4CPLUS_TEXT("root"));
 
 class CSampleHandler : public CThostFtdcMdSpi
 {
@@ -56,7 +57,7 @@ public:
 	// After making a succeed connection with the CTP server, the client should send the login request to the CTP server.
     virtual void OnFrontConnected()
     {
-        printf("OnFrontConnected:\n");
+        LOG4CPLUS_INFO(logger, "OnFrontConnected:\n");
 
         CThostFtdcReqUserLoginField reqUserLogin;
         memset((void*)&reqUserLogin, 0, sizeof(reqUserLogin));
@@ -87,7 +88,7 @@ public:
 	// After receiving the login request from  the client��the CTP server will send the following response to notify the client whether the login success or not.
 	virtual void OnRspUserLogin(CThostFtdcRspUserLoginField *pRspUserLogin, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
 	{
-        printf("OnRspUserLogin:");
+        LOG4CPLUS_INFO(logger, "OnRspUserLogin:");
         if (pRspUserLogin != NULL)
         {
             printf("%s|%s|%s|%s|%s|%s|%s|%s|%s|%d|%d|%s|",
@@ -116,7 +117,7 @@ public:
 		}
 
 		// get trading day
-		printf("��ȡ��ǰ������ = %s\n",m_pUserApi->GetTradingDay());
+		printf("交易日  = %s\n",m_pUserApi->GetTradingDay());
 
 		// ���鶩���б�
 		//char *ppInstrumentID[] = {"IF1203"};
@@ -256,43 +257,27 @@ int main(int argc, char* argv[])
         pSpi[i]->m_hEvent = event_create(true, false);
 
         // set spi's broker, user, passwd
-        strcpy (pSpi[i]->m_chBrokerID, "31000853");	// �ڻ��ܱ߲���ϵͳ(v6)
+        strcpy (pSpi[i]->m_chBrokerID, "3748FD77");	// �ڻ��ܱ߲���ϵͳ(v6)
         //_snprintf(pSpi[i]->m_chUserID, sizeof(pSpi[i]->m_chUserID), "8000%d", i+1);
         //snprintf(pSpi[i]->m_chUserID, sizeof(pSpi[i]->m_chUserID), "8000%d", i+1);
 #ifdef WIN32
 		_snprintf(pSpi[i]->m_chUserID, sizeof(pSpi[i]->m_chUserID)-1, "80008");
 #else
-        snprintf(pSpi[i]->m_chUserID, sizeof(pSpi[i]->m_chUserID), "renren");
+        snprintf(pSpi[i]->m_chUserID, sizeof(pSpi[i]->m_chUserID), "8140800");
 #endif
         //ks_snprintf(pSpi[i]->m_chUserID, sizeof(pSpi[i]->m_chUserID), "8000%d", i+1);
         strcpy (pSpi[i]->m_chPassword, "123456");
         //_snprintf(pSpi[i]->m_chUserID, sizeof(pSpi[i]->m_chUserID)-1, "36000002");
         //strcpy (pSpi[i]->m_chPassword, "");
-        strcpy (pSpi[i]->m_chContract, "IF1403");
-
-        //strcpy (pSpi[i]->m_chBrokerID, "1C784211");	// ��ҵ�ڻ����޹�˾
-        //strcpy (pSpi[i]->m_chUserID, "11803873");
-        //strcpy (pSpi[i]->m_chPassword, "000000");
-        //strcpy (pSpi[i]->m_chUserID, "98180895");
-        //strcpy (pSpi[i]->m_chPassword, "888888");
-        //strcpy (pSpi[i]->m_chContract, "rb1205");
-
-        //strcpy (pSpi[i]->m_chBrokerID, "31000853");	// �Ϻ��������˴�����(v8)
-        //_snprintf(pSpi[i]->m_chUserID, sizeof(pSpi[i]->m_chUserID)-1, "3600000%d", i+1);
-        //strcpy (pSpi[i]->m_chPassword, "123456");
-        //strcpy (pSpi[i]->m_chUserID, "5100001");
-        //strcpy (pSpi[i]->m_chPassword, "111111");
-        //strcpy (pSpi[i]->m_chContract, "au1001");
+        strcpy (pSpi[i]->m_chContract, "123456");
 
         // register an event handler instance
         pUserApi[i]->RegisterSpi(pSpi[i]);
 
         // register the kingstar front address and port
-        //pUserApi[i]->RegisterFront("http://116.228.51.115:28993/jazzmonk.vicp.net:80");	// xingye sim v8 proxy
-        //pUserApi[i]->RegisterFront("http://116.228.51.115:13159/192.168.1.101:8080");	// xingye sim v6 proxy
         //pUserApi[i]->RegisterFront("http://10.253.46.23:18993/10.253.44.234:8080");		// kstar v6 local proxy trading
         //pUserApi[i]->RegisterFront("tcp://10.253.117.107:13153");		// kstar v6 local local marketdata
-	    pUserApi[i]->RegisterFront("tcp://10.253.117.107:13163");		// kstar v8 local local marketdata
+	    pUserApi[i]->RegisterFront("tcp://122.224.197.22:15159");		// kstar v8 local local marketdata
         //pUserApi[i]->RegisterFront("tcp://10.253.44.30:17993");		// kstar v6 system test��1026��1226��
         //pUserApi[i]->RegisterFront("tcp://127.0.0.1:17993");		// kstar v6 localhost
         //pUserApi[i]->RegisterFront("http://210.5.154.195:18993/jazzmonk.vicp.net:80");	// kstar v6 internet proxy
