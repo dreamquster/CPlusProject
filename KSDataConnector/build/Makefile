@@ -70,6 +70,16 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/root/Programs/cmake-3.2.0/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/progress.marks
@@ -100,6 +110,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named GTest
+
+# Build rule for target.
+GTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GTest
+.PHONY : GTest
+
+# fast build rule for target.
+GTest/fast:
+	$(MAKE) -f CMakeFiles/GTest.dir/build.make CMakeFiles/GTest.dir/build
+.PHONY : GTest/fast
 
 #=============================================================================
 # Target rules for targets named lib-log4cplus
@@ -185,6 +208,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... testKSMarketApi"
 	@echo "... lib-log4cplus"
+	@echo "... test"
+	@echo "... GTest"
 	@echo "... src/main/event.o"
 	@echo "... src/main/event.i"
 	@echo "... src/main/event.s"

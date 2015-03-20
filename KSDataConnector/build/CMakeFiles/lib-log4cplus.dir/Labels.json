@@ -16,31 +16,31 @@
 		},
 		
 		{
-			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-install.rule"
+			"file" : "/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-install.rule"
 		},
 		
 		{
-			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-mkdir.rule"
+			"file" : "/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-mkdir.rule"
 		},
 		
 		{
-			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-download.rule"
+			"file" : "/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-download.rule"
 		},
 		
 		{
-			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-update.rule"
+			"file" : "/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-update.rule"
 		},
 		
 		{
-			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-patch.rule"
+			"file" : "/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-patch.rule"
 		},
 		
 		{
-			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-configure.rule"
+			"file" : "/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-configure.rule"
 		},
 		
 		{
-			"file" : "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-build.rule"
+			"file" : "/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-build.rule"
 		}
 	],
 	"target" : 

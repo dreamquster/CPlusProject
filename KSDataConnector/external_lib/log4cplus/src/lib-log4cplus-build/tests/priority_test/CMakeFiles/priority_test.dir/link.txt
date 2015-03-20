@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/priority_test.dir/main.cxx.o CMakeFiles/priority_test.dir/func.cxx.o  -o ../../bin/priority_test -rdynamic ../../src/liblog4cplus.so.1.2.0 -lpthread -lrt -lnsl -Wl,-rpath,/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/src 

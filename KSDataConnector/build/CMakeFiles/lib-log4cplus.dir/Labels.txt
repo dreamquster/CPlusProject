@@ -4,10 +4,10 @@
 /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/lib-log4cplus
 /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/lib-log4cplus.rule
 /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/lib-log4cplus-complete.rule
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-install.rule
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-mkdir.rule
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-download.rule
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-update.rule
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-patch.rule
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-configure.rule
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-build.rule
+/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-install.rule
+/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-mkdir.rule
+/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-download.rule
+/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-update.rule
+/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-patch.rule
+/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-configure.rule
+/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-build.rule

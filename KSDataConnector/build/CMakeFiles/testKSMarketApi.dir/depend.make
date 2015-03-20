@@ -11,4 +11,5 @@ CMakeFiles/testKSMarketApi.dir/src/main/testKSMarketDataAPI.cpp.o: ../src/ks_inc
 CMakeFiles/testKSMarketApi.dir/src/main/testKSMarketDataAPI.cpp.o: ../src/main/event.h
 CMakeFiles/testKSMarketApi.dir/src/main/testKSMarketDataAPI.cpp.o: ../src/main/testKSMarketDataAPI.cpp
 CMakeFiles/testKSMarketApi.dir/src/main/testKSMarketDataAPI.cpp.o: ../src/main/testKSMarketDataAPI.h
+CMakeFiles/testKSMarketApi.dir/src/main/testKSMarketDataAPI.cpp.o: ../src/main/utils/StringUtils.h
 

@@ -1,0 +1,1904 @@
+The system is: Linux - 3.16.0-30-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/3.2.0-rc2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/3.2.0-rc2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3782559066/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3782559066.dir/build.make CMakeFiles/cmTryCompileExec3782559066.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3782559066.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3782559066.dir/testCCompiler.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3782559066
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3782559066.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3782559066.dir/testCCompiler.c.o  -o cmTryCompileExec3782559066 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1976586921/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1976586921.dir/build.make CMakeFiles/cmTryCompileExec1976586921.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1976586921.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1976586921.dir/CMakeCCompilerABI.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1976586921
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1976586921.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTryCompileExec1976586921.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1976586921 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1976586921' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1976586921 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1976586921.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1976586921/fast"]
+  ignore line: [make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1976586921.dir/build.make CMakeFiles/cmTryCompileExec1976586921.dir/build]
+  ignore line: [make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp']
+  ignore line: [/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1976586921.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1976586921.dir/CMakeCCompilerABI.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1976586921]
+  ignore line: [/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1976586921.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec1976586921.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1976586921 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1976586921' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1976586921 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1976586921.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1976586921] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec1976586921.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2719676301/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2719676301.dir/build.make CMakeFiles/cmTryCompileExec2719676301.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2719676301.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec2719676301.dir/feature_tests.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2719676301
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2719676301.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2719676301.dir/feature_tests.c.o  -o cmTryCompileExec2719676301 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4190006278/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4190006278.dir/build.make CMakeFiles/cmTryCompileExec4190006278.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4190006278.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec4190006278.dir/feature_tests.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec4190006278
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4190006278.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4190006278.dir/feature_tests.c.o  -o cmTryCompileExec4190006278 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3881501663/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3881501663.dir/build.make CMakeFiles/cmTryCompileExec3881501663.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3881501663.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec3881501663.dir/feature_tests.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3881501663
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3881501663.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3881501663.dir/feature_tests.c.o  -o cmTryCompileExec3881501663 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1274470820/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1274470820.dir/build.make CMakeFiles/cmTryCompileExec1274470820.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1274470820.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1274470820.dir/testCXXCompiler.cxx.o -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1274470820
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1274470820.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1274470820.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1274470820 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec970825971/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec970825971.dir/build.make CMakeFiles/cmTryCompileExec970825971.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec970825971.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec970825971.dir/CMakeCXXCompilerABI.cpp.o -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec970825971
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec970825971.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTryCompileExec970825971.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec970825971 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec970825971' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec970825971 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec970825971.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec970825971/fast"]
+  ignore line: [make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec970825971.dir/build.make CMakeFiles/cmTryCompileExec970825971.dir/build]
+  ignore line: [make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp']
+  ignore line: [/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec970825971.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec970825971.dir/CMakeCXXCompilerABI.cpp.o -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec970825971]
+  ignore line: [/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec970825971.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec970825971.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec970825971 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec970825971' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec970825971 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec970825971.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec970825971] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec970825971.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2850689734/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2850689734.dir/build.make CMakeFiles/cmTryCompileExec2850689734.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2850689734.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec2850689734.dir/feature_tests.cxx.o -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec2850689734
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2850689734.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2850689734.dir/feature_tests.cxx.o  -o cmTryCompileExec2850689734 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec640077279/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec640077279.dir/build.make CMakeFiles/cmTryCompileExec640077279.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec640077279.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec640077279.dir/feature_tests.cxx.o -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec640077279
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec640077279.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec640077279.dir/feature_tests.cxx.o  -o cmTryCompileExec640077279 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2040356060/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2040356060.dir/build.make CMakeFiles/cmTryCompileExec2040356060.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2040356060.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec2040356060.dir/feature_tests.cxx.o -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec2040356060
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2040356060.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2040356060.dir/feature_tests.cxx.o  -o cmTryCompileExec2040356060 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2225610958/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2225610958.dir/build.make CMakeFiles/cmTryCompileExec2225610958.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2225610958.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2225610958.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2225610958
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2225610958.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2225610958.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2225610958 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3298885428/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3298885428.dir/build.make CMakeFiles/cmTryCompileExec3298885428.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3298885428.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3298885428.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3298885428
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3298885428.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3298885428.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3298885428 -rdynamic -lpthread 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1249451854/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1249451854.dir/build.make CMakeFiles/cmTryCompileExec1249451854.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1249451854.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1249451854.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1249451854
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1249451854.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1249451854.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1249451854 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files errno.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2804034263/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2804034263.dir/build.make CMakeFiles/cmTryCompileExec2804034263.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2804034263.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2804034263.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2804034263
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2804034263.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2804034263.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2804034263 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files iconv.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3175083766/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3175083766.dir/build.make CMakeFiles/cmTryCompileExec3175083766.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3175083766.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3175083766.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3175083766
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3175083766.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3175083766.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3175083766 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files limits.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3387266614/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3387266614.dir/build.make CMakeFiles/cmTryCompileExec3387266614.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3387266614.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3387266614.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3387266614
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3387266614.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3387266614.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3387266614 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3365129840/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3365129840.dir/build.make CMakeFiles/cmTryCompileExec3365129840.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3365129840.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3365129840.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3365129840
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3365129840.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3365129840.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3365129840 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;sys/socket.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1311372221/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1311372221.dir/build.make CMakeFiles/cmTryCompileExec1311372221.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1311372221.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1311372221.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1311372221
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1311372221.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1311372221.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1311372221 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/syscall.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4276802961/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4276802961.dir/build.make CMakeFiles/cmTryCompileExec4276802961.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4276802961.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4276802961.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4276802961
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4276802961.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4276802961.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4276802961 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;sys/time.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2809420471/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2809420471.dir/build.make CMakeFiles/cmTryCompileExec2809420471.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2809420471.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2809420471.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2809420471
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2809420471.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2809420471.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2809420471 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;sys/timeb.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1647467008/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1647467008.dir/build.make CMakeFiles/cmTryCompileExec1647467008.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1647467008.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1647467008.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1647467008
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1647467008.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1647467008.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1647467008 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;sys/stat.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec96069492/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec96069492.dir/build.make CMakeFiles/cmTryCompileExec96069492.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec96069492.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec96069492.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec96069492
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec96069492.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec96069492.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec96069492 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/file.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2233216508/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2233216508.dir/build.make CMakeFiles/cmTryCompileExec2233216508.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2233216508.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2233216508.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2233216508
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2233216508.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2233216508.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2233216508 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files syslog.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1612109672/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1612109672.dir/build.make CMakeFiles/cmTryCompileExec1612109672.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1612109672.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1612109672.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1612109672
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1612109672.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1612109672.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1612109672 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files arpa/inet.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2693781198/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2693781198.dir/build.make CMakeFiles/cmTryCompileExec2693781198.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2693781198.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2693781198.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2693781198
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2693781198.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2693781198.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2693781198 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files netinet/in.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2073053675/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2073053675.dir/build.make CMakeFiles/cmTryCompileExec2073053675.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2073053675.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2073053675.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2073053675
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2073053675.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2073053675.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2073053675 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;netinet/tcp.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2690654703/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2690654703.dir/build.make CMakeFiles/cmTryCompileExec2690654703.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2690654703.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2690654703.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2690654703
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2690654703.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2690654703.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2690654703 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files netdb.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1673284905/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1673284905.dir/build.make CMakeFiles/cmTryCompileExec1673284905.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1673284905.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1673284905.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1673284905
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1673284905.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1673284905.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1673284905 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2850086436/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2850086436.dir/build.make CMakeFiles/cmTryCompileExec2850086436.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2850086436.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2850086436.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2850086436
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2850086436.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2850086436.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2850086436 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec86220884/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec86220884.dir/build.make CMakeFiles/cmTryCompileExec86220884.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec86220884.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec86220884.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec86220884
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec86220884.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec86220884.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec86220884 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1916283217/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1916283217.dir/build.make CMakeFiles/cmTryCompileExec1916283217.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1916283217.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1916283217.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1916283217
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1916283217.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1916283217.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1916283217 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdarg.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1548148109/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1548148109.dir/build.make CMakeFiles/cmTryCompileExec1548148109.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1548148109.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1548148109.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1548148109
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1548148109.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1548148109.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1548148109 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4118511831/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4118511831.dir/build.make CMakeFiles/cmTryCompileExec4118511831.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4118511831.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4118511831.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4118511831
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4118511831.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4118511831.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4118511831 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2118691352/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2118691352.dir/build.make CMakeFiles/cmTryCompileExec2118691352.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2118691352.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2118691352.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2118691352
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2118691352.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2118691352.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2118691352 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files wchar.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec415785858/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec415785858.dir/build.make CMakeFiles/cmTryCompileExec415785858.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec415785858.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec415785858.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec415785858
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec415785858.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec415785858.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec415785858 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files poll.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3042685305/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3042685305.dir/build.make CMakeFiles/cmTryCompileExec3042685305.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3042685305.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3042685305.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3042685305
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3042685305.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3042685305.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3042685305 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec502229654/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec502229654.dir/build.make CMakeFiles/cmTryCompileExec502229654.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec502229654.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec502229654.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec502229654
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec502229654.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec502229654.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec502229654 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2477149081/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2477149081.dir/build.make CMakeFiles/cmTryCompileExec2477149081.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2477149081.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2477149081.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2477149081
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2477149081.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2477149081.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2477149081 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec577003901/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec577003901.dir/build.make CMakeFiles/cmTryCompileExec577003901.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec577003901.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec577003901.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec577003901
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec577003901.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec577003901.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec577003901 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec211820377/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec211820377.dir/build.make CMakeFiles/cmTryCompileExec211820377.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec211820377.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec211820377.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec211820377
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec211820377.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec211820377.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec211820377 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3358520946/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3358520946.dir/build.make CMakeFiles/cmTryCompileExec3358520946.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3358520946.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3358520946.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3358520946
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3358520946.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3358520946.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3358520946 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h;stdio.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2513800145/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2513800145.dir/build.make CMakeFiles/cmTryCompileExec2513800145.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2513800145.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2513800145.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2513800145
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2513800145.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2513800145.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2513800145 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gmtime_r exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3814943474/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3814943474.dir/build.make CMakeFiles/cmTryCompileExec3814943474.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3814943474.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gmtime_r   -o CMakeFiles/cmTryCompileExec3814943474.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3814943474
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3814943474.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gmtime_r    CMakeFiles/cmTryCompileExec3814943474.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3814943474 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function localtime_r exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec535339158/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec535339158.dir/build.make CMakeFiles/cmTryCompileExec535339158.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec535339158.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localtime_r   -o CMakeFiles/cmTryCompileExec535339158.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec535339158
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec535339158.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localtime_r    CMakeFiles/cmTryCompileExec535339158.dir/CheckFunctionExists.c.o  -o cmTryCompileExec535339158 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1156110392/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1156110392.dir/build.make CMakeFiles/cmTryCompileExec1156110392.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1156110392.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTryCompileExec1156110392.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1156110392
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1156110392.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettimeofday    CMakeFiles/cmTryCompileExec1156110392.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1156110392 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getpid exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3999457161/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3999457161.dir/build.make CMakeFiles/cmTryCompileExec3999457161.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3999457161.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpid   -o CMakeFiles/cmTryCompileExec3999457161.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3999457161
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3999457161.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpid    CMakeFiles/cmTryCompileExec3999457161.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3999457161 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4034609645/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4034609645.dir/build.make CMakeFiles/cmTryCompileExec4034609645.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4034609645.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTryCompileExec4034609645.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4034609645
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4034609645.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTryCompileExec4034609645.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4034609645 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pipe exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec556848446/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec556848446.dir/build.make CMakeFiles/cmTryCompileExec556848446.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec556848446.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pipe   -o CMakeFiles/cmTryCompileExec556848446.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec556848446
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec556848446.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pipe    CMakeFiles/cmTryCompileExec556848446.dir/CheckFunctionExists.c.o  -o cmTryCompileExec556848446 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pipe2 exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1450223954/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1450223954.dir/build.make CMakeFiles/cmTryCompileExec1450223954.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1450223954.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pipe2   -o CMakeFiles/cmTryCompileExec1450223954.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1450223954
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1450223954.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pipe2    CMakeFiles/cmTryCompileExec1450223954.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1450223954 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ftime exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1459434361/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1459434361.dir/build.make CMakeFiles/cmTryCompileExec1459434361.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1459434361.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftime   -o CMakeFiles/cmTryCompileExec1459434361.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1459434361
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1459434361.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftime    CMakeFiles/cmTryCompileExec1459434361.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1459434361 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function stat exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2147635855/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2147635855.dir/build.make CMakeFiles/cmTryCompileExec2147635855.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2147635855.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stat   -o CMakeFiles/cmTryCompileExec2147635855.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2147635855
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2147635855.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stat    CMakeFiles/cmTryCompileExec2147635855.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2147635855 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lstat exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec661080394/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec661080394.dir/build.make CMakeFiles/cmTryCompileExec661080394.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec661080394.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lstat   -o CMakeFiles/cmTryCompileExec661080394.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec661080394
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec661080394.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lstat    CMakeFiles/cmTryCompileExec661080394.dir/CheckFunctionExists.c.o  -o cmTryCompileExec661080394 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec631161111/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec631161111.dir/build.make CMakeFiles/cmTryCompileExec631161111.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec631161111.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fcntl   -o CMakeFiles/cmTryCompileExec631161111.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec631161111
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec631161111.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fcntl    CMakeFiles/cmTryCompileExec631161111.dir/CheckFunctionExists.c.o  -o cmTryCompileExec631161111 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lockf exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3712773798/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3712773798.dir/build.make CMakeFiles/cmTryCompileExec3712773798.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3712773798.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lockf   -o CMakeFiles/cmTryCompileExec3712773798.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3712773798
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3712773798.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lockf    CMakeFiles/cmTryCompileExec3712773798.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3712773798 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function flock exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3071035309/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3071035309.dir/build.make CMakeFiles/cmTryCompileExec3071035309.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3071035309.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=flock   -o CMakeFiles/cmTryCompileExec3071035309.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3071035309
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3071035309.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=flock    CMakeFiles/cmTryCompileExec3071035309.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3071035309 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function htons exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3137662774/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3137662774.dir/build.make CMakeFiles/cmTryCompileExec3137662774.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3137662774.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=htons   -o CMakeFiles/cmTryCompileExec3137662774.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3137662774
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3137662774.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=htons    CMakeFiles/cmTryCompileExec3137662774.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3137662774 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ntohs exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1003238347/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1003238347.dir/build.make CMakeFiles/cmTryCompileExec1003238347.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1003238347.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ntohs   -o CMakeFiles/cmTryCompileExec1003238347.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1003238347
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1003238347.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ntohs    CMakeFiles/cmTryCompileExec1003238347.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1003238347 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function htonl exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec178437266/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec178437266.dir/build.make CMakeFiles/cmTryCompileExec178437266.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec178437266.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=htonl   -o CMakeFiles/cmTryCompileExec178437266.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec178437266
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec178437266.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=htonl    CMakeFiles/cmTryCompileExec178437266.dir/CheckFunctionExists.c.o  -o cmTryCompileExec178437266 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ntohl exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2818184712/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2818184712.dir/build.make CMakeFiles/cmTryCompileExec2818184712.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2818184712.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ntohl   -o CMakeFiles/cmTryCompileExec2818184712.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2818184712
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2818184712.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ntohl    CMakeFiles/cmTryCompileExec2818184712.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2818184712 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shutdown exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3460626710/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3460626710.dir/build.make CMakeFiles/cmTryCompileExec3460626710.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3460626710.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shutdown   -o CMakeFiles/cmTryCompileExec3460626710.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3460626710
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3460626710.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shutdown    CMakeFiles/cmTryCompileExec3460626710.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3460626710 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3025472113/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3025472113.dir/build.make CMakeFiles/cmTryCompileExec3025472113.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3025472113.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTryCompileExec3025472113.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vsnprintf’ [enabled by default]
+/root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3025472113
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3025472113.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf    CMakeFiles/cmTryCompileExec3025472113.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3025472113 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mbstowcs exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2788215567/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2788215567.dir/build.make CMakeFiles/cmTryCompileExec2788215567.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2788215567.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mbstowcs   -o CMakeFiles/cmTryCompileExec2788215567.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2788215567
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2788215567.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mbstowcs    CMakeFiles/cmTryCompileExec2788215567.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2788215567 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wcstombs exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3103563984/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3103563984.dir/build.make CMakeFiles/cmTryCompileExec3103563984.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3103563984.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcstombs   -o CMakeFiles/cmTryCompileExec3103563984.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3103563984
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3103563984.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wcstombs    CMakeFiles/cmTryCompileExec3103563984.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3103563984 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the ENAMETOOLONG exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3480834217/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3480834217.dir/build.make CMakeFiles/cmTryCompileExec3480834217.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3480834217.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3480834217.dir/CheckSymbolExists.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3480834217
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3480834217.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3480834217.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3480834217 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+File /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <errno.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ENAMETOOLONG
+  return ((int*)(&ENAMETOOLONG))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SYS_gettid exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4029214497/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4029214497.dir/build.make CMakeFiles/cmTryCompileExec4029214497.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4029214497.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4029214497.dir/CheckSymbolExists.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4029214497
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4029214497.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4029214497.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4029214497 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+File /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/syscall.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SYS_gettid
+  return ((int*)(&SYS_gettid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __FUNCTION__ exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3760565615/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3760565615.dir/build.make CMakeFiles/cmTryCompileExec3760565615.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3760565615.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3760565615.dir/CheckSymbolExists.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3760565615
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3760565615.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3760565615.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3760565615 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+File /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __FUNCTION__
+  return ((int*)(&__FUNCTION__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __PRETTY_FUNCTION__ exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3574087215/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3574087215.dir/build.make CMakeFiles/cmTryCompileExec3574087215.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3574087215.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3574087215.dir/CheckSymbolExists.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3574087215
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3574087215.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3574087215.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3574087215 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+File /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __PRETTY_FUNCTION__
+  return ((int*)(&__PRETTY_FUNCTION__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __func__ exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1612299295/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1612299295.dir/build.make CMakeFiles/cmTryCompileExec1612299295.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1612299295.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1612299295.dir/CheckSymbolExists.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1612299295
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1612299295.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1612299295.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1612299295 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+File /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __func__
+  return ((int*)(&__func__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test LOG4CPLUS_HAVE___SYNC_ADD_AND_FETCH succeded with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3748919823/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3748919823.dir/build.make CMakeFiles/cmTryCompileExec3748919823.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3748919823.dir/src.c.o
+/usr/bin/cc   -DLOG4CPLUS_HAVE___SYNC_ADD_AND_FETCH   -o CMakeFiles/cmTryCompileExec3748919823.dir/src.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3748919823
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3748919823.dir/link.txt --verbose=1
+/usr/bin/cc   -DLOG4CPLUS_HAVE___SYNC_ADD_AND_FETCH    CMakeFiles/cmTryCompileExec3748919823.dir/src.c.o  -o cmTryCompileExec3748919823 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdlib.h> 
+ int main() { int x = 1; int y = __sync_add_and_fetch (&x, 1); return y;}
+Performing C SOURCE FILE Test LOG4CPLUS_HAVE___SYNC_SUB_AND_FETCH succeded with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec162585087/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec162585087.dir/build.make CMakeFiles/cmTryCompileExec162585087.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec162585087.dir/src.c.o
+/usr/bin/cc   -DLOG4CPLUS_HAVE___SYNC_SUB_AND_FETCH   -o CMakeFiles/cmTryCompileExec162585087.dir/src.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec162585087
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec162585087.dir/link.txt --verbose=1
+/usr/bin/cc   -DLOG4CPLUS_HAVE___SYNC_SUB_AND_FETCH    CMakeFiles/cmTryCompileExec162585087.dir/src.c.o  -o cmTryCompileExec162585087 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdlib.h> 
+ int main() { int x = 1; int y = __sync_sub_and_fetch (&x, 1); return y;}
+Performing C SOURCE FILE Test LOG4CPLUS_HAVE_GNU_VARIADIC_MACROS succeded with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1349489482/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1349489482.dir/build.make CMakeFiles/cmTryCompileExec1349489482.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1349489482.dir/src.c.o
+/usr/bin/cc   -DLOG4CPLUS_HAVE_GNU_VARIADIC_MACROS   -o CMakeFiles/cmTryCompileExec1349489482.dir/src.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1349489482
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1349489482.dir/link.txt --verbose=1
+/usr/bin/cc   -DLOG4CPLUS_HAVE_GNU_VARIADIC_MACROS    CMakeFiles/cmTryCompileExec1349489482.dir/src.c.o  -o cmTryCompileExec1349489482 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdio.h>
+ #define MACRO(buf, args...) (sprintf (buf, "%d", args))
+ int main() {char a[10]; MACRO(a, 1); return 0; }
+Performing C SOURCE FILE Test LOG4CPLUS_HAVE_C99_VARIADIC_MACROS succeded with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2649862983/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2649862983.dir/build.make CMakeFiles/cmTryCompileExec2649862983.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2649862983.dir/src.c.o
+/usr/bin/cc   -DLOG4CPLUS_HAVE_C99_VARIADIC_MACROS   -o CMakeFiles/cmTryCompileExec2649862983.dir/src.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2649862983
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2649862983.dir/link.txt --verbose=1
+/usr/bin/cc   -DLOG4CPLUS_HAVE_C99_VARIADIC_MACROS    CMakeFiles/cmTryCompileExec2649862983.dir/src.c.o  -o cmTryCompileExec2649862983 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdio.h>
+ #define MACRO(buf, ...) (sprintf (buf, "%d",  __VA_ARGS__))
+ int main() {char a[10]; MACRO(a, 1); return 0; }
+Determining if the function clock_gettime exists in the /usr/lib/x86_64-linux-gnu/librt.so passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4020441225/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4020441225.dir/build.make CMakeFiles/cmTryCompileExec4020441225.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4020441225.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec4020441225.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4020441225
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4020441225.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec4020441225.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4020441225 -rdynamic -lrt 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_nanosleep exists in the /usr/lib/x86_64-linux-gnu/librt.so passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3464603826/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3464603826.dir/build.make CMakeFiles/cmTryCompileExec3464603826.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3464603826.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_nanosleep   -o CMakeFiles/cmTryCompileExec3464603826.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3464603826
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3464603826.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_nanosleep    CMakeFiles/cmTryCompileExec3464603826.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3464603826 -rdynamic -lrt 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function nanosleep exists in the /usr/lib/x86_64-linux-gnu/librt.so passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec123457596/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec123457596.dir/build.make CMakeFiles/cmTryCompileExec123457596.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec123457596.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTryCompileExec123457596.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec123457596
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec123457596.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=nanosleep    CMakeFiles/cmTryCompileExec123457596.dir/CheckFunctionExists.c.o  -o cmTryCompileExec123457596 -rdynamic -lrt 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname_r exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec366124645/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec366124645.dir/build.make CMakeFiles/cmTryCompileExec366124645.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec366124645.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname_r   -o CMakeFiles/cmTryCompileExec366124645.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec366124645
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec366124645.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname_r    CMakeFiles/cmTryCompileExec366124645.dir/CheckFunctionExists.c.o  -o cmTryCompileExec366124645 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec503178965/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec503178965.dir/build.make CMakeFiles/cmTryCompileExec503178965.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec503178965.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getaddrinfo   -o CMakeFiles/cmTryCompileExec503178965.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec503178965
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec503178965.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getaddrinfo    CMakeFiles/cmTryCompileExec503178965.dir/CheckFunctionExists.c.o  -o cmTryCompileExec503178965 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY succeded with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1355548021/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1355548021.dir/build.make CMakeFiles/cmTryCompileExec1355548021.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1355548021.dir/src.c.o
+/usr/bin/cc   -DHAVE_ATTRIBUTE_VISIBILITY   -o CMakeFiles/cmTryCompileExec1355548021.dir/src.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1355548021
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1355548021.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_ATTRIBUTE_VISIBILITY    CMakeFiles/cmTryCompileExec1355548021.dir/src.c.o  -o cmTryCompileExec1355548021 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#if defined (__GNUC__) && (__GNUC__ < 4 || (__GNUC__ == 4 && __GNUC_MINOR__ <= 1))
+     # error Please fail.
+     #endif
+
+     __attribute__((visibility("default"))) int x = 0;
+     __attribute__((visibility("default"))) int foo();
+     int foo() { return 0; }
+     __attribute__((visibility("default"))) int bar() { return x; }
+     __attribute__((visibility("hidden"))) int baz() { return 1; }
+
+     int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_GCC_THREAD_EXTENSION succeded with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3840794498/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3840794498.dir/build.make CMakeFiles/cmTryCompileExec3840794498.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3840794498.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_GCC_THREAD_EXTENSION   -o CMakeFiles/cmTryCompileExec3840794498.dir/src.cxx.o -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3840794498
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3840794498.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_GCC_THREAD_EXTENSION    CMakeFiles/cmTryCompileExec3840794498.dir/src.cxx.o  -o cmTryCompileExec3840794498 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#if defined (__NetBSD__)
+     #include <sys/param.h>
+     #if ! __NetBSD_Prereq__(5,1,0)
+     #error NetBSD __thread support does not work before 5.1.0. It is missing __tls_get_addr.
+     #endif
+     #endif
+
+     extern __thread int x;
+     __thread int * ptr = 0;
+     int foo() { ptr = &x; return x; }
+     __thread int x = 1;
+
+     int main()
+     {
+         x = 2;
+         foo();
+         return 0;
+     }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3944306839/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3944306839.dir/build.make CMakeFiles/cmTryCompileExec3944306839.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3944306839.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3944306839.dir/CheckIncludeFile.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3944306839
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3944306839.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3944306839.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3944306839 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2884437818/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2884437818.dir/build.make CMakeFiles/cmTryCompileExec2884437818.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2884437818.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2884437818.dir/CheckIncludeFile.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2884437818
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2884437818.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2884437818.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2884437818 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2563504300/fast"
+make[3]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2563504300.dir/build.make CMakeFiles/cmTryCompileExec2563504300.dir/build
+make[4]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2563504300.dir/_SOCKLEN_SIZE.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2563504300.dir/_SOCKLEN_SIZE.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CheckTypeSize/_SOCKLEN_SIZE.c
+Linking C executable cmTryCompileExec2563504300
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2563504300.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2563504300.dir/_SOCKLEN_SIZE.c.o  -o cmTryCompileExec2563504300 -rdynamic 
+make[4]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build/CMakeFiles/CMakeTmp'
+
+

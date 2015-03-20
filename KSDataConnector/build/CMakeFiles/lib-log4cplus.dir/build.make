@@ -47,81 +47,81 @@ include CMakeFiles/lib-log4cplus.dir/progress.make
 
 CMakeFiles/lib-log4cplus: CMakeFiles/lib-log4cplus-complete
 
-CMakeFiles/lib-log4cplus-complete: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-install
-CMakeFiles/lib-log4cplus-complete: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-mkdir
-CMakeFiles/lib-log4cplus-complete: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-download
-CMakeFiles/lib-log4cplus-complete: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-update
-CMakeFiles/lib-log4cplus-complete: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-patch
-CMakeFiles/lib-log4cplus-complete: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-configure
-CMakeFiles/lib-log4cplus-complete: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-build
-CMakeFiles/lib-log4cplus-complete: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-install
+CMakeFiles/lib-log4cplus-complete: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-install
+CMakeFiles/lib-log4cplus-complete: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-mkdir
+CMakeFiles/lib-log4cplus-complete: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-download
+CMakeFiles/lib-log4cplus-complete: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-update
+CMakeFiles/lib-log4cplus-complete: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-patch
+CMakeFiles/lib-log4cplus-complete: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-configure
+CMakeFiles/lib-log4cplus-complete: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-build
+CMakeFiles/lib-log4cplus-complete: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-install
 	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Completed 'lib-log4cplus'"
 	/root/Programs/cmake-3.2.0/bin/cmake -E make_directory /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles
 	/root/Programs/cmake-3.2.0/bin/cmake -E touch /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/lib-log4cplus-complete
-	/root/Programs/cmake-3.2.0/bin/cmake -E touch /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-done
+	/root/Programs/cmake-3.2.0/bin/cmake -E touch /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus-stamp/lib-log4cplus-done
 
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-install: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-build
+../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-install: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-build
 	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Performing install step for 'lib-log4cplus'"
-	cd /external_lib/log4cplus/us/src/lib-log4cplus-build && make install
-	cd /external_lib/log4cplus/us/src/lib-log4cplus-build && /root/Programs/cmake-3.2.0/bin/cmake -E touch /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-install
+	cd /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build && make install
+	cd /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build && /root/Programs/cmake-3.2.0/bin/cmake -E touch /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus-stamp/lib-log4cplus-install
 
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-mkdir:
+../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-mkdir:
 	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Creating directories for 'lib-log4cplus'"
-	/root/Programs/cmake-3.2.0/bin/cmake -E make_directory /external_lib/log4cplus/us/src/lib-log4cplus
-	/root/Programs/cmake-3.2.0/bin/cmake -E make_directory /external_lib/log4cplus/us/src/lib-log4cplus-build
-	/root/Programs/cmake-3.2.0/bin/cmake -E make_directory /external_lib/log4cplus/us
-	/root/Programs/cmake-3.2.0/bin/cmake -E make_directory /external_lib/log4cplus/us/tmp
-	/root/Programs/cmake-3.2.0/bin/cmake -E make_directory /external_lib/log4cplus/us/src/lib-log4cplus-stamp
-	/root/Programs/cmake-3.2.0/bin/cmake -E make_directory /external_lib/log4cplus
-	/root/Programs/cmake-3.2.0/bin/cmake -E touch /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-mkdir
+	/root/Programs/cmake-3.2.0/bin/cmake -E make_directory /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus
+	/root/Programs/cmake-3.2.0/bin/cmake -E make_directory /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus-build
+	/root/Programs/cmake-3.2.0/bin/cmake -E make_directory /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/
+	/root/Programs/cmake-3.2.0/bin/cmake -E make_directory /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//tmp
+	/root/Programs/cmake-3.2.0/bin/cmake -E make_directory /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus-stamp
+	/root/Programs/cmake-3.2.0/bin/cmake -E make_directory /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus
+	/root/Programs/cmake-3.2.0/bin/cmake -E touch /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus-stamp/lib-log4cplus-mkdir
 
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-download: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-urlinfo.txt
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-download: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-mkdir
+../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-download: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-urlinfo.txt
+../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-download: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-mkdir
 	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Performing download step (download, verify and extract) for 'lib-log4cplus'"
-	cd /external_lib/log4cplus/us/src && /root/Programs/cmake-3.2.0/bin/cmake -P /external_lib/log4cplus/us/src/lib-log4cplus-stamp/download-lib-log4cplus.cmake
-	cd /external_lib/log4cplus/us/src && /root/Programs/cmake-3.2.0/bin/cmake -P /external_lib/log4cplus/us/src/lib-log4cplus-stamp/verify-lib-log4cplus.cmake
-	cd /external_lib/log4cplus/us/src && /root/Programs/cmake-3.2.0/bin/cmake -P /external_lib/log4cplus/us/src/lib-log4cplus-stamp/extract-lib-log4cplus.cmake
-	cd /external_lib/log4cplus/us/src && /root/Programs/cmake-3.2.0/bin/cmake -E touch /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-download
+	cd /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src && /root/Programs/cmake-3.2.0/bin/cmake -P /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus-stamp/download-lib-log4cplus.cmake
+	cd /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src && /root/Programs/cmake-3.2.0/bin/cmake -P /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus-stamp/verify-lib-log4cplus.cmake
+	cd /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src && /root/Programs/cmake-3.2.0/bin/cmake -P /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus-stamp/extract-lib-log4cplus.cmake
+	cd /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src && /root/Programs/cmake-3.2.0/bin/cmake -E touch /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus-stamp/lib-log4cplus-download
 
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-update: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-download
+../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-update: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-download
 	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "No update step for 'lib-log4cplus'"
 	/root/Programs/cmake-3.2.0/bin/cmake -E echo_append
-	/root/Programs/cmake-3.2.0/bin/cmake -E touch /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-update
+	/root/Programs/cmake-3.2.0/bin/cmake -E touch /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus-stamp/lib-log4cplus-update
 
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-patch: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-download
+../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-patch: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-download
 	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "No patch step for 'lib-log4cplus'"
 	/root/Programs/cmake-3.2.0/bin/cmake -E echo_append
-	/root/Programs/cmake-3.2.0/bin/cmake -E touch /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-patch
+	/root/Programs/cmake-3.2.0/bin/cmake -E touch /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus-stamp/lib-log4cplus-patch
 
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-configure: /external_lib/log4cplus/us/tmp/lib-log4cplus-cfgcmd.txt
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-configure: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-update
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-configure: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-patch
+../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-configure: ../external_lib/log4cplus/tmp/lib-log4cplus-cfgcmd.txt
+../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-configure: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-update
+../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-configure: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-patch
 	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Performing configure step for 'lib-log4cplus'"
-	cd /external_lib/log4cplus/us/src/lib-log4cplus-build && /root/Programs/cmake-3.2.0/bin/cmake "-GUnix Makefiles" /external_lib/log4cplus/us/src/lib-log4cplus
-	cd /external_lib/log4cplus/us/src/lib-log4cplus-build && /root/Programs/cmake-3.2.0/bin/cmake -E touch /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-configure
+	cd /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build && /root/Programs/cmake-3.2.0/bin/cmake "-GUnix Makefiles" /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus
+	cd /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build && /root/Programs/cmake-3.2.0/bin/cmake -E touch /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus-stamp/lib-log4cplus-configure
 
-/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-build: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-configure
+../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-build: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-configure
 	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Performing build step for 'lib-log4cplus'"
-	cd /external_lib/log4cplus/us/src/lib-log4cplus-build && make
-	cd /external_lib/log4cplus/us/src/lib-log4cplus-build && /root/Programs/cmake-3.2.0/bin/cmake -E touch /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-build
+	cd /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build && make
+	cd /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus/src/lib-log4cplus-build && /root/Programs/cmake-3.2.0/bin/cmake -E touch /root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus-stamp/lib-log4cplus-build
 
 lib-log4cplus: CMakeFiles/lib-log4cplus
 lib-log4cplus: CMakeFiles/lib-log4cplus-complete
-lib-log4cplus: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-install
-lib-log4cplus: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-mkdir
-lib-log4cplus: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-download
-lib-log4cplus: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-update
-lib-log4cplus: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-patch
-lib-log4cplus: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-configure
-lib-log4cplus: /external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-build
+lib-log4cplus: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-install
+lib-log4cplus: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-mkdir
+lib-log4cplus: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-download
+lib-log4cplus: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-update
+lib-log4cplus: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-patch
+lib-log4cplus: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-configure
+lib-log4cplus: ../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-build
 lib-log4cplus: CMakeFiles/lib-log4cplus.dir/build.make
 .PHONY : lib-log4cplus
 

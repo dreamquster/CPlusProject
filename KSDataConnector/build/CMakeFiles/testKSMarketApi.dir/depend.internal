@@ -12,3 +12,4 @@ CMakeFiles/testKSMarketApi.dir/src/main/testKSMarketDataAPI.cpp.o
  /root/workspace/github/CPlusProject/KSDataConnector/src/main/event.h
  /root/workspace/github/CPlusProject/KSDataConnector/src/main/testKSMarketDataAPI.cpp
  /root/workspace/github/CPlusProject/KSDataConnector/src/main/testKSMarketDataAPI.h
+ /root/workspace/github/CPlusProject/KSDataConnector/src/main/utils/StringUtils.h

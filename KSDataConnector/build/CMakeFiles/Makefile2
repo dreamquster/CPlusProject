@@ -53,13 +53,48 @@ CMAKE_SOURCE_DIR = /root/workspace/github/CPlusProject/KSDataConnector
 CMAKE_BINARY_DIR = /root/workspace/github/CPlusProject/KSDataConnector/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/GTest.dir
+
+# All Build rule for target.
+CMakeFiles/GTest.dir/all:
+	$(MAKE) -f CMakeFiles/GTest.dir/build.make CMakeFiles/GTest.dir/depend
+	$(MAKE) -f CMakeFiles/GTest.dir/build.make CMakeFiles/GTest.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles  1 2 3 4 5 6 7 8
+	@echo "Built target GTest"
+.PHONY : CMakeFiles/GTest.dir/all
+
+# Include target in all.
+all: CMakeFiles/GTest.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/GTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles 0
+.PHONY : CMakeFiles/GTest.dir/rule
+
+# Convenience name for target.
+GTest: CMakeFiles/GTest.dir/rule
+.PHONY : GTest
+
+# clean rule for target.
+CMakeFiles/GTest.dir/clean:
+	$(MAKE) -f CMakeFiles/GTest.dir/build.make CMakeFiles/GTest.dir/clean
+.PHONY : CMakeFiles/GTest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/GTest.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/lib-log4cplus.dir
 
 # All Build rule for target.
 CMakeFiles/lib-log4cplus.dir/all:
 	$(MAKE) -f CMakeFiles/lib-log4cplus.dir/build.make CMakeFiles/lib-log4cplus.dir/depend
 	$(MAKE) -f CMakeFiles/lib-log4cplus.dir/build.make CMakeFiles/lib-log4cplus.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles  1 2 3 4 5 6 7 8
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles  9 10 11 12 13 14 15 16
 	@echo "Built target lib-log4cplus"
 .PHONY : CMakeFiles/lib-log4cplus.dir/all
 
@@ -94,7 +129,7 @@ clean: CMakeFiles/lib-log4cplus.dir/clean
 CMakeFiles/testKSMarketApi.dir/all:
 	$(MAKE) -f CMakeFiles/testKSMarketApi.dir/build.make CMakeFiles/testKSMarketApi.dir/depend
 	$(MAKE) -f CMakeFiles/testKSMarketApi.dir/build.make CMakeFiles/testKSMarketApi.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles  9 10
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles  17 18
 	@echo "Built target testKSMarketApi"
 .PHONY : CMakeFiles/testKSMarketApi.dir/all
 

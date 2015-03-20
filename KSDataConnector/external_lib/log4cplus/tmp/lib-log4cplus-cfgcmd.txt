@@ -1,0 +1,1 @@
+cmd='/root/Programs/cmake-3.2.0/bin/cmake;-GUnix Makefiles;/root/workspace/github/CPlusProject/KSDataConnector/external_lib/log4cplus//src/lib-log4cplus'

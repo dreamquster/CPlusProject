@@ -1,2 +1,3 @@
 /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/testKSMarketApi.dir
 /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/lib-log4cplus.dir
+/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/GTest.dir

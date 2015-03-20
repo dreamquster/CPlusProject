@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/external_lib/log4cplus/us/tmp/lib-log4cplus-cfgcmd.txt.in"
   "/root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCInformation.cmake"
   "/root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCXXInformation.cmake"
   "/root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCommonLanguageInclude.cmake"
@@ -18,6 +17,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/Compiler/GNU-CXX.cmake"
   "/root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/Compiler/GNU.cmake"
   "/root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/ExternalProject.cmake"
+  "/root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/FindBoost.cmake"
   "/root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/Platform/Linux-GNU-C.cmake"
   "/root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/Platform/Linux-GNU-CXX.cmake"
   "/root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/Platform/Linux-GNU.cmake"
@@ -28,6 +28,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.2.0-rc2/CMakeCCompiler.cmake"
   "CMakeFiles/3.2.0-rc2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.2.0-rc2/CMakeSystem.cmake"
+  "../cmake_modules/mysql-config.cmake"
+  "../external_lib/gtest//tmp/GTest-cfgcmd.txt.in"
+  "../external_lib/log4cplus//tmp/lib-log4cplus-cfgcmd.txt.in"
   )
 
 # The corresponding makefile is:
@@ -38,8 +41,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "/external_lib/log4cplus/us/src/lib-log4cplus-stamp/lib-log4cplus-urlinfo.txt"
-  "/external_lib/log4cplus/us/tmp/lib-log4cplus-cfgcmd.txt"
+  "../external_lib/log4cplus/src/lib-log4cplus-stamp/lib-log4cplus-urlinfo.txt"
+  "../external_lib/log4cplus/tmp/lib-log4cplus-cfgcmd.txt"
+  "../external_lib/gtest/tmp/GTest-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -47,4 +51,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/testKSMarketApi.dir/DependInfo.cmake"
   "CMakeFiles/lib-log4cplus.dir/DependInfo.cmake"
+  "CMakeFiles/GTest.dir/DependInfo.cmake"
   )

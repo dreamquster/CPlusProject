@@ -6,10 +6,12 @@
 #include <log4cplus/loggingmacros.h>
 #include <log4cplus/configurator.h>
 using namespace log4cplus;
-
+#include <boost/locale.hpp>
+#include <boost/format.hpp>
 #include "testKSMarketDataAPI.h"
 #include "event.h"
 #include "KSMarketDataAPI.h"
+#include "utils/StringUtils.h"
 #include<cstdlib>
 #include<cstdio>
 #include <iostream>
@@ -107,8 +109,12 @@ public:
                 );
         }
         printf("\n");
-        printf("ErrorCode=[%d], ErrorMsg=[%s]\n", pRspInfo->ErrorID, pRspInfo->ErrorMsg);
-        printf("RequestID=[%d], Chain=[%d]\n", nRequestID, bIsLast);
+        LOG4CPLUS_DEBUG(logger, boost::format("ErrorCode=[%d], ErrorMsg=[%s]\n")
+                                                % pRspInfo->ErrorID
+                                                % StringUtils::gbk2utf(pRspInfo->ErrorMsg)
+                       );
+        LOG4CPLUS_INFO(logger, boost::format("RequestID=[%d], Chain=[%d]\n")
+                                            % nRequestID           %bIsLast);
         if (pRspInfo->ErrorID != 0)
 		{
 			// in case any login failure, the client should handle this error.
@@ -127,6 +133,8 @@ public:
 		// ���鶩�ĸ���
 		int iInstrumentID = 1;
         // 	����
+        LOG4CPLUS_INFO(logger, "SubscribeMarketData with instrumentId:" << *ppInstrumentID);
+
 		m_pUserApi->SubscribeMarketData(ppInstrumentID, iInstrumentID);
         // �ͷ��ڴ�
         delete ppInstrumentID[0];
@@ -135,8 +143,11 @@ public:
 	///RspSubMarketData return
 	virtual void OnRspSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
 	{
-		printf("OnRspSubMarketData:%s\n", pSpecificInstrument->InstrumentID);
-		printf("ErrorCode=[%d], ErrorMsg=[%s]\n", pRspInfo->ErrorID, pRspInfo->ErrorMsg);
+		LOG4CPLUS_INFO(logger, "OnRspSubMarketData:" << pSpecificInstrument->InstrumentID <<endl);
+		LOG4CPLUS_DEBUG(logger, boost::format("ErrorCode=[%d], ErrorMsg=[%s]\n")
+                                        % pRspInfo->ErrorID
+                                        % boost::locale::conv::to_utf<char>(string(pRspInfo->ErrorMsg), "GBK")
+                        );
 
 /*		if (bIsLast == true)
 		{
@@ -239,8 +250,15 @@ private:
 
 const int MAX_CONNECTION = 2;
 
+void initialize_modules() {
+    log4cplus::initialize();
+    BasicConfigurator config;
+    config.configure();
+}
+
 int main(int argc, char* argv[])
 {
+    initialize_modules();
     CThostFtdcMdApi *pUserApi[MAX_CONNECTION] = {0};
     CSampleHandler *pSpi[MAX_CONNECTION] = {0};
 
@@ -267,23 +285,13 @@ int main(int argc, char* argv[])
 #endif
         //ks_snprintf(pSpi[i]->m_chUserID, sizeof(pSpi[i]->m_chUserID), "8000%d", i+1);
         strcpy (pSpi[i]->m_chPassword, "123456");
-        //_snprintf(pSpi[i]->m_chUserID, sizeof(pSpi[i]->m_chUserID)-1, "36000002");
-        //strcpy (pSpi[i]->m_chPassword, "");
-        strcpy (pSpi[i]->m_chContract, "123456");
+        //strcpy (pSpi[i]->m_chContract, "IF1203");
+        strcpy (pSpi[i]->m_chContract, "ag1504");
 
         // register an event handler instance
         pUserApi[i]->RegisterSpi(pSpi[i]);
 
-        // register the kingstar front address and port
-        //pUserApi[i]->RegisterFront("http://10.253.46.23:18993/10.253.44.234:8080");		// kstar v6 local proxy trading
-        //pUserApi[i]->RegisterFront("tcp://10.253.117.107:13153");		// kstar v6 local local marketdata
 	    pUserApi[i]->RegisterFront("tcp://122.224.197.22:15159");		// kstar v8 local local marketdata
-        //pUserApi[i]->RegisterFront("tcp://10.253.44.30:17993");		// kstar v6 system test��1026��1226��
-        //pUserApi[i]->RegisterFront("tcp://127.0.0.1:17993");		// kstar v6 localhost
-        //pUserApi[i]->RegisterFront("http://210.5.154.195:18993/jazzmonk.vicp.net:80");	// kstar v6 internet proxy
-        //pUserApi[i]->RegisterFront("http://10.253.46.23:18883/10.253.44.234:8080");	// kstar v8 local proxy
-        //pUserApi[i]->RegisterFront("tcp://10.253.44.42:17993");	// kstar v8 local
-	//pUserApi[i]->RegisterNameServer("tcp://10.253.117.107:11000//80008");		// portal register
         // make the connection between client and CTP server
         pUserApi[i]->Init();
     }
@@ -300,7 +308,7 @@ int main(int argc, char* argv[])
         strcpy(UserLogout.BrokerID, pSpi[i]->m_chBrokerID);
         // investor ID
         strcpy(UserLogout.UserID, pSpi[i]->m_chUserID);
-        pUserApi[i]->ReqUserLogout(&UserLogout, pSpi[i]->m_nRequestID++ );
+        pUserApi[i]->ReqUserLogout(&UserLogout, pSpi[i]->m_nRequestID++);
 
         // waiting for quit event
         //WaitForSingleObject(pSpi[i]->m_hEvent, 3000/*INFINITE*/);

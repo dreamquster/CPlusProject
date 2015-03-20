@@ -43,12 +43,18 @@ log4cplus/loggingmacros.h
 -
 log4cplus/configurator.h
 -
+boost/locale.hpp
+-
+boost/format.hpp
+-
 testKSMarketDataAPI.h
 /root/workspace/github/CPlusProject/KSDataConnector/src/main/testKSMarketDataAPI.h
 event.h
 /root/workspace/github/CPlusProject/KSDataConnector/src/main/event.h
 KSMarketDataAPI.h
 /root/workspace/github/CPlusProject/KSDataConnector/src/main/KSMarketDataAPI.h
+utils/StringUtils.h
+/root/workspace/github/CPlusProject/KSDataConnector/src/main/utils/StringUtils.h
 cstdlib
 -
 cstdio
@@ -63,4 +69,12 @@ string.h
 -
 
 /root/workspace/github/CPlusProject/KSDataConnector/src/main/testKSMarketDataAPI.h
+
+/root/workspace/github/CPlusProject/KSDataConnector/src/main/utils/StringUtils.h
+iconv.h
+-
+iostream
+-
+boost/locale.hpp
+-
 

@@ -106,6 +106,7 @@ testKSMarketApi_EXTERNAL_OBJECTS =
 ../bin/testKSMarketApi: CMakeFiles/testKSMarketApi.dir/src/main/event.cpp.o
 ../bin/testKSMarketApi: CMakeFiles/testKSMarketApi.dir/src/main/testKSMarketDataAPI.cpp.o
 ../bin/testKSMarketApi: CMakeFiles/testKSMarketApi.dir/build.make
+../bin/testKSMarketApi: /usr/lib/x86_64-linux-gnu/libboost_locale.so
 ../bin/testKSMarketApi: ../external_lib/KSMarketDataAPI/linux64/libksmarketdataapi.so
 ../bin/testKSMarketApi: ../external_lib/KSMarketDataAPI/linux64/libkslkc64r.so
 ../bin/testKSMarketApi: CMakeFiles/testKSMarketApi.dir/link.txt
