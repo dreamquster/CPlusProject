@@ -28,30 +28,30 @@ The CXX compiler identification is GNU, found in "/root/workspace/github/CPlusPr
 Determining if the C compiler works passed with the following output:
 Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2205907802/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2205907802.dir/build.make CMakeFiles/cmTryCompileExec2205907802.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2519573735/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2519573735.dir/build.make CMakeFiles/cmTryCompileExec2519573735.dir/build
 make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 /root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2205907802.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2205907802.dir/testCCompiler.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec2205907802
-/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2205907802.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2205907802.dir/testCCompiler.c.o  -o cmTryCompileExec2205907802 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2519573735.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2519573735.dir/testCCompiler.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2519573735
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2519573735.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2519573735.dir/testCCompiler.c.o  -o cmTryCompileExec2519573735 -rdynamic 
 make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec441320680/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec441320680.dir/build.make CMakeFiles/cmTryCompileExec441320680.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec717801138/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec717801138.dir/build.make CMakeFiles/cmTryCompileExec717801138.dir/build
 make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 /root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec441320680.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec441320680.dir/CMakeCCompilerABI.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec441320680
-/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec441320680.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTryCompileExec441320680.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec441320680 -rdynamic  
+Building C object CMakeFiles/cmTryCompileExec717801138.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec717801138.dir/CMakeCCompilerABI.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec717801138
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec717801138.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTryCompileExec717801138.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec717801138 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -61,8 +61,8 @@ Thread model: posix
 gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec441320680' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec441320680 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec441320680.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec717801138' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec717801138 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec717801138.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 
 
@@ -70,15 +70,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec441320680/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec441320680.dir/build.make CMakeFiles/cmTryCompileExec441320680.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec717801138/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec717801138.dir/build.make CMakeFiles/cmTryCompileExec717801138.dir/build]
   ignore line: [make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp']
   ignore line: [/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec441320680.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec441320680.dir/CMakeCCompilerABI.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec441320680]
-  ignore line: [/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec441320680.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec441320680.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec441320680 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec717801138.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec717801138.dir/CMakeCCompilerABI.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec717801138]
+  ignore line: [/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec717801138.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec717801138.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec717801138 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -88,8 +88,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec441320680' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec441320680 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec441320680.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec717801138' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec717801138 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec717801138.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -103,7 +103,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec441320680] ==> ignore
+    arg [cmTryCompileExec717801138] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec441320680.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec717801138.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -149,15 +149,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2974305925/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2974305925.dir/build.make CMakeFiles/cmTryCompileExec2974305925.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1088266771/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1088266771.dir/build.make CMakeFiles/cmTryCompileExec1088266771.dir/build
 make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 /root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2974305925.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec2974305925.dir/feature_tests.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec2974305925
-/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2974305925.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2974305925.dir/feature_tests.c.o  -o cmTryCompileExec2974305925 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1088266771.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec1088266771.dir/feature_tests.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1088266771
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1088266771.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1088266771.dir/feature_tests.c.o  -o cmTryCompileExec1088266771 -rdynamic 
 make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 
 
@@ -170,15 +170,15 @@ make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2021754006/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2021754006.dir/build.make CMakeFiles/cmTryCompileExec2021754006.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2365523370/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2365523370.dir/build.make CMakeFiles/cmTryCompileExec2365523370.dir/build
 make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 /root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2021754006.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec2021754006.dir/feature_tests.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec2021754006
-/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2021754006.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2021754006.dir/feature_tests.c.o  -o cmTryCompileExec2021754006 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2365523370.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec2365523370.dir/feature_tests.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2365523370
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2365523370.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2365523370.dir/feature_tests.c.o  -o cmTryCompileExec2365523370 -rdynamic 
 make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 
 
@@ -191,15 +191,15 @@ make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4201357241/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4201357241.dir/build.make CMakeFiles/cmTryCompileExec4201357241.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2552415429/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2552415429.dir/build.make CMakeFiles/cmTryCompileExec2552415429.dir/build
 make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 /root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4201357241.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec4201357241.dir/feature_tests.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec4201357241
-/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4201357241.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec4201357241.dir/feature_tests.c.o  -o cmTryCompileExec4201357241 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2552415429.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec2552415429.dir/feature_tests.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2552415429
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2552415429.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2552415429.dir/feature_tests.c.o  -o cmTryCompileExec2552415429 -rdynamic 
 make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 
 
@@ -210,30 +210,30 @@ make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3247188991/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3247188991.dir/build.make CMakeFiles/cmTryCompileExec3247188991.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1611759171/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1611759171.dir/build.make CMakeFiles/cmTryCompileExec1611759171.dir/build
 make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 /root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3247188991.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3247188991.dir/testCXXCompiler.cxx.o -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec3247188991
-/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3247188991.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec3247188991.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3247188991 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec1611759171.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1611759171.dir/testCXXCompiler.cxx.o -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1611759171
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1611759171.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1611759171.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1611759171 -rdynamic 
 make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1524583551/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1524583551.dir/build.make CMakeFiles/cmTryCompileExec1524583551.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3411625290/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3411625290.dir/build.make CMakeFiles/cmTryCompileExec3411625290.dir/build
 make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 /root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1524583551.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1524583551.dir/CMakeCXXCompilerABI.cpp.o -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec1524583551
-/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1524583551.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTryCompileExec1524583551.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1524583551 -rdynamic  
+Building CXX object CMakeFiles/cmTryCompileExec3411625290.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3411625290.dir/CMakeCXXCompilerABI.cpp.o -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3411625290
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3411625290.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTryCompileExec3411625290.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3411625290 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -243,8 +243,8 @@ Thread model: posix
 gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1524583551' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1524583551 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1524583551.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3411625290' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3411625290 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3411625290.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 
 
@@ -252,15 +252,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1524583551/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1524583551.dir/build.make CMakeFiles/cmTryCompileExec1524583551.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3411625290/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3411625290.dir/build.make CMakeFiles/cmTryCompileExec3411625290.dir/build]
   ignore line: [make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp']
   ignore line: [/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1524583551.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1524583551.dir/CMakeCXXCompilerABI.cpp.o -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec1524583551]
-  ignore line: [/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1524583551.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec1524583551.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1524583551 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3411625290.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3411625290.dir/CMakeCXXCompilerABI.cpp.o -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3411625290]
+  ignore line: [/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3411625290.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec3411625290.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3411625290 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -270,8 +270,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1524583551' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1524583551 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1524583551.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3411625290' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3411625290 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3411625290.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -285,7 +285,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec1524583551] ==> ignore
+    arg [cmTryCompileExec3411625290] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -297,7 +297,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec1524583551.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3411625290.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -329,15 +329,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
 Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec401572210/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec401572210.dir/build.make CMakeFiles/cmTryCompileExec401572210.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1559140051/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1559140051.dir/build.make CMakeFiles/cmTryCompileExec1559140051.dir/build
 make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 /root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec401572210.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec401572210.dir/feature_tests.cxx.o -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec401572210
-/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec401572210.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec401572210.dir/feature_tests.cxx.o  -o cmTryCompileExec401572210 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec1559140051.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec1559140051.dir/feature_tests.cxx.o -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec1559140051
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1559140051.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1559140051.dir/feature_tests.cxx.o  -o cmTryCompileExec1559140051 -rdynamic 
 make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 
 
@@ -403,15 +403,15 @@ make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1660067092/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1660067092.dir/build.make CMakeFiles/cmTryCompileExec1660067092.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec668401301/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec668401301.dir/build.make CMakeFiles/cmTryCompileExec668401301.dir/build
 make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 /root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1660067092.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec1660067092.dir/feature_tests.cxx.o -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec1660067092
-/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1660067092.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec1660067092.dir/feature_tests.cxx.o  -o cmTryCompileExec1660067092 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec668401301.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec668401301.dir/feature_tests.cxx.o -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec668401301
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec668401301.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec668401301.dir/feature_tests.cxx.o  -o cmTryCompileExec668401301 -rdynamic 
 make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 
 
@@ -477,15 +477,15 @@ make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec762906231/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec762906231.dir/build.make CMakeFiles/cmTryCompileExec762906231.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1877504051/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1877504051.dir/build.make CMakeFiles/cmTryCompileExec1877504051.dir/build
 make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 /root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec762906231.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec762906231.dir/feature_tests.cxx.o -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec762906231
-/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec762906231.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec762906231.dir/feature_tests.cxx.o  -o cmTryCompileExec762906231 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec1877504051.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec1877504051.dir/feature_tests.cxx.o -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec1877504051
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1877504051.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1877504051.dir/feature_tests.cxx.o  -o cmTryCompileExec1877504051 -rdynamic 
 make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
 
 
@@ -546,3 +546,33 @@ make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1557033917/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1557033917.dir/build.make CMakeFiles/cmTryCompileExec1557033917.dir/build
+make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1557033917.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1557033917.dir/CheckIncludeFiles.c.o   -c /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1557033917
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1557033917.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1557033917.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1557033917 -rdynamic 
+make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1657747578/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1657747578.dir/build.make CMakeFiles/cmTryCompileExec1657747578.dir/build
+make[1]: Entering directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1657747578.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1657747578.dir/CheckFunctionExists.c.o   -c /root/Programs/cmake-3.2.0/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1657747578
+/root/Programs/cmake-3.2.0/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1657747578.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1657747578.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1657747578 -rdynamic -lpthread 
+make[1]: Leaving directory `/root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles/CMakeTmp'
+
+

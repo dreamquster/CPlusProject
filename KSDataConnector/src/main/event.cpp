@@ -8,7 +8,8 @@
  *20121106  ´´½¨
  */
 #include"event.h"
-#ifdef __linux   
+//#ifdef __linux
+#if defined(__linux) || defined(__CYGWIN__)
 #include <sys/time.h>   
 #include <errno.h>   
 #endif   

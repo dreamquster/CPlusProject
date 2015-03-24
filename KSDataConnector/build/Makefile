@@ -112,50 +112,220 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named GTest
+# Target rules for targets named KSMD
 
 # Build rule for target.
-GTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 GTest
-.PHONY : GTest
+KSMD: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 KSMD
+.PHONY : KSMD
 
 # fast build rule for target.
-GTest/fast:
-	$(MAKE) -f CMakeFiles/GTest.dir/build.make CMakeFiles/GTest.dir/build
-.PHONY : GTest/fast
+KSMD/fast:
+	$(MAKE) -f CMakeFiles/KSMD.dir/build.make CMakeFiles/KSMD.dir/build
+.PHONY : KSMD/fast
 
 #=============================================================================
-# Target rules for targets named lib-log4cplus
+# Target rules for targets named ksmd
 
 # Build rule for target.
-lib-log4cplus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lib-log4cplus
-.PHONY : lib-log4cplus
+ksmd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ksmd
+.PHONY : ksmd
 
 # fast build rule for target.
-lib-log4cplus/fast:
-	$(MAKE) -f CMakeFiles/lib-log4cplus.dir/build.make CMakeFiles/lib-log4cplus.dir/build
-.PHONY : lib-log4cplus/fast
+ksmd/fast:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/build
+.PHONY : ksmd/fast
 
 #=============================================================================
-# Target rules for targets named testKSMarketApi
+# Target rules for targets named unittest
 
 # Build rule for target.
-testKSMarketApi: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testKSMarketApi
-.PHONY : testKSMarketApi
+unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unittest
+.PHONY : unittest
 
 # fast build rule for target.
-testKSMarketApi/fast:
-	$(MAKE) -f CMakeFiles/testKSMarketApi.dir/build.make CMakeFiles/testKSMarketApi.dir/build
-.PHONY : testKSMarketApi/fast
+unittest/fast:
+	$(MAKE) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/build
+.PHONY : unittest/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f external_lib/gtest/CMakeFiles/gtest.dir/build.make external_lib/gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f external_lib/gtest/CMakeFiles/gtest_main.dir/build.make external_lib/gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+src/main/IDGenerator.o: src/main/IDGenerator.cc.o
+.PHONY : src/main/IDGenerator.o
+
+# target to build an object file
+src/main/IDGenerator.cc.o:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/IDGenerator.cc.o
+.PHONY : src/main/IDGenerator.cc.o
+
+src/main/IDGenerator.i: src/main/IDGenerator.cc.i
+.PHONY : src/main/IDGenerator.i
+
+# target to preprocess a source file
+src/main/IDGenerator.cc.i:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/IDGenerator.cc.i
+.PHONY : src/main/IDGenerator.cc.i
+
+src/main/IDGenerator.s: src/main/IDGenerator.cc.s
+.PHONY : src/main/IDGenerator.s
+
+# target to generate assembly for a file
+src/main/IDGenerator.cc.s:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/IDGenerator.cc.s
+.PHONY : src/main/IDGenerator.cc.s
+
+src/main/KSMD.o: src/main/KSMD.cc.o
+.PHONY : src/main/KSMD.o
+
+# target to build an object file
+src/main/KSMD.cc.o:
+	$(MAKE) -f CMakeFiles/KSMD.dir/build.make CMakeFiles/KSMD.dir/src/main/KSMD.cc.o
+.PHONY : src/main/KSMD.cc.o
+
+src/main/KSMD.i: src/main/KSMD.cc.i
+.PHONY : src/main/KSMD.i
+
+# target to preprocess a source file
+src/main/KSMD.cc.i:
+	$(MAKE) -f CMakeFiles/KSMD.dir/build.make CMakeFiles/KSMD.dir/src/main/KSMD.cc.i
+.PHONY : src/main/KSMD.cc.i
+
+src/main/KSMD.s: src/main/KSMD.cc.s
+.PHONY : src/main/KSMD.s
+
+# target to generate assembly for a file
+src/main/KSMD.cc.s:
+	$(MAKE) -f CMakeFiles/KSMD.dir/build.make CMakeFiles/KSMD.dir/src/main/KSMD.cc.s
+.PHONY : src/main/KSMD.cc.s
+
+src/main/KSMarketDataApi.o: src/main/KSMarketDataApi.cc.o
+.PHONY : src/main/KSMarketDataApi.o
+
+# target to build an object file
+src/main/KSMarketDataApi.cc.o:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/KSMarketDataApi.cc.o
+.PHONY : src/main/KSMarketDataApi.cc.o
+
+src/main/KSMarketDataApi.i: src/main/KSMarketDataApi.cc.i
+.PHONY : src/main/KSMarketDataApi.i
+
+# target to preprocess a source file
+src/main/KSMarketDataApi.cc.i:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/KSMarketDataApi.cc.i
+.PHONY : src/main/KSMarketDataApi.cc.i
+
+src/main/KSMarketDataApi.s: src/main/KSMarketDataApi.cc.s
+.PHONY : src/main/KSMarketDataApi.s
+
+# target to generate assembly for a file
+src/main/KSMarketDataApi.cc.s:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/KSMarketDataApi.cc.s
+.PHONY : src/main/KSMarketDataApi.cc.s
+
+src/main/KSMarketDataConf.o: src/main/KSMarketDataConf.cc.o
+.PHONY : src/main/KSMarketDataConf.o
+
+# target to build an object file
+src/main/KSMarketDataConf.cc.o:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/KSMarketDataConf.cc.o
+.PHONY : src/main/KSMarketDataConf.cc.o
+
+src/main/KSMarketDataConf.i: src/main/KSMarketDataConf.cc.i
+.PHONY : src/main/KSMarketDataConf.i
+
+# target to preprocess a source file
+src/main/KSMarketDataConf.cc.i:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/KSMarketDataConf.cc.i
+.PHONY : src/main/KSMarketDataConf.cc.i
+
+src/main/KSMarketDataConf.s: src/main/KSMarketDataConf.cc.s
+.PHONY : src/main/KSMarketDataConf.s
+
+# target to generate assembly for a file
+src/main/KSMarketDataConf.cc.s:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/KSMarketDataConf.cc.s
+.PHONY : src/main/KSMarketDataConf.cc.s
+
+src/main/KSMarketDataOp.o: src/main/KSMarketDataOp.cc.o
+.PHONY : src/main/KSMarketDataOp.o
+
+# target to build an object file
+src/main/KSMarketDataOp.cc.o:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/KSMarketDataOp.cc.o
+.PHONY : src/main/KSMarketDataOp.cc.o
+
+src/main/KSMarketDataOp.i: src/main/KSMarketDataOp.cc.i
+.PHONY : src/main/KSMarketDataOp.i
+
+# target to preprocess a source file
+src/main/KSMarketDataOp.cc.i:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/KSMarketDataOp.cc.i
+.PHONY : src/main/KSMarketDataOp.cc.i
+
+src/main/KSMarketDataOp.s: src/main/KSMarketDataOp.cc.s
+.PHONY : src/main/KSMarketDataOp.s
+
+# target to generate assembly for a file
+src/main/KSMarketDataOp.cc.s:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/KSMarketDataOp.cc.s
+.PHONY : src/main/KSMarketDataOp.cc.s
+
+src/main/KSMarketDataSpi.o: src/main/KSMarketDataSpi.cc.o
+.PHONY : src/main/KSMarketDataSpi.o
+
+# target to build an object file
+src/main/KSMarketDataSpi.cc.o:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/KSMarketDataSpi.cc.o
+.PHONY : src/main/KSMarketDataSpi.cc.o
+
+src/main/KSMarketDataSpi.i: src/main/KSMarketDataSpi.cc.i
+.PHONY : src/main/KSMarketDataSpi.i
+
+# target to preprocess a source file
+src/main/KSMarketDataSpi.cc.i:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/KSMarketDataSpi.cc.i
+.PHONY : src/main/KSMarketDataSpi.cc.i
+
+src/main/KSMarketDataSpi.s: src/main/KSMarketDataSpi.cc.s
+.PHONY : src/main/KSMarketDataSpi.s
+
+# target to generate assembly for a file
+src/main/KSMarketDataSpi.cc.s:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/KSMarketDataSpi.cc.s
+.PHONY : src/main/KSMarketDataSpi.cc.s
 
 src/main/event.o: src/main/event.cpp.o
 .PHONY : src/main/event.o
 
 # target to build an object file
 src/main/event.cpp.o:
-	$(MAKE) -f CMakeFiles/testKSMarketApi.dir/build.make CMakeFiles/testKSMarketApi.dir/src/main/event.cpp.o
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/event.cpp.o
 .PHONY : src/main/event.cpp.o
 
 src/main/event.i: src/main/event.cpp.i
@@ -163,7 +333,7 @@ src/main/event.i: src/main/event.cpp.i
 
 # target to preprocess a source file
 src/main/event.cpp.i:
-	$(MAKE) -f CMakeFiles/testKSMarketApi.dir/build.make CMakeFiles/testKSMarketApi.dir/src/main/event.cpp.i
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/event.cpp.i
 .PHONY : src/main/event.cpp.i
 
 src/main/event.s: src/main/event.cpp.s
@@ -171,32 +341,80 @@ src/main/event.s: src/main/event.cpp.s
 
 # target to generate assembly for a file
 src/main/event.cpp.s:
-	$(MAKE) -f CMakeFiles/testKSMarketApi.dir/build.make CMakeFiles/testKSMarketApi.dir/src/main/event.cpp.s
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/event.cpp.s
 .PHONY : src/main/event.cpp.s
 
-src/main/testKSMarketDataAPI.o: src/main/testKSMarketDataAPI.cpp.o
-.PHONY : src/main/testKSMarketDataAPI.o
+src/main/gobal.o: src/main/gobal.cc.o
+.PHONY : src/main/gobal.o
 
 # target to build an object file
-src/main/testKSMarketDataAPI.cpp.o:
-	$(MAKE) -f CMakeFiles/testKSMarketApi.dir/build.make CMakeFiles/testKSMarketApi.dir/src/main/testKSMarketDataAPI.cpp.o
-.PHONY : src/main/testKSMarketDataAPI.cpp.o
+src/main/gobal.cc.o:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/gobal.cc.o
+.PHONY : src/main/gobal.cc.o
 
-src/main/testKSMarketDataAPI.i: src/main/testKSMarketDataAPI.cpp.i
-.PHONY : src/main/testKSMarketDataAPI.i
+src/main/gobal.i: src/main/gobal.cc.i
+.PHONY : src/main/gobal.i
 
 # target to preprocess a source file
-src/main/testKSMarketDataAPI.cpp.i:
-	$(MAKE) -f CMakeFiles/testKSMarketApi.dir/build.make CMakeFiles/testKSMarketApi.dir/src/main/testKSMarketDataAPI.cpp.i
-.PHONY : src/main/testKSMarketDataAPI.cpp.i
+src/main/gobal.cc.i:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/gobal.cc.i
+.PHONY : src/main/gobal.cc.i
 
-src/main/testKSMarketDataAPI.s: src/main/testKSMarketDataAPI.cpp.s
-.PHONY : src/main/testKSMarketDataAPI.s
+src/main/gobal.s: src/main/gobal.cc.s
+.PHONY : src/main/gobal.s
 
 # target to generate assembly for a file
-src/main/testKSMarketDataAPI.cpp.s:
-	$(MAKE) -f CMakeFiles/testKSMarketApi.dir/build.make CMakeFiles/testKSMarketApi.dir/src/main/testKSMarketDataAPI.cpp.s
-.PHONY : src/main/testKSMarketDataAPI.cpp.s
+src/main/gobal.cc.s:
+	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/gobal.cc.s
+.PHONY : src/main/gobal.cc.s
+
+src/test/KSMySQLOpTest.o: src/test/KSMySQLOpTest.cc.o
+.PHONY : src/test/KSMySQLOpTest.o
+
+# target to build an object file
+src/test/KSMySQLOpTest.cc.o:
+	$(MAKE) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/src/test/KSMySQLOpTest.cc.o
+.PHONY : src/test/KSMySQLOpTest.cc.o
+
+src/test/KSMySQLOpTest.i: src/test/KSMySQLOpTest.cc.i
+.PHONY : src/test/KSMySQLOpTest.i
+
+# target to preprocess a source file
+src/test/KSMySQLOpTest.cc.i:
+	$(MAKE) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/src/test/KSMySQLOpTest.cc.i
+.PHONY : src/test/KSMySQLOpTest.cc.i
+
+src/test/KSMySQLOpTest.s: src/test/KSMySQLOpTest.cc.s
+.PHONY : src/test/KSMySQLOpTest.s
+
+# target to generate assembly for a file
+src/test/KSMySQLOpTest.cc.s:
+	$(MAKE) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/src/test/KSMySQLOpTest.cc.s
+.PHONY : src/test/KSMySQLOpTest.cc.s
+
+src/test/unittest.o: src/test/unittest.cc.o
+.PHONY : src/test/unittest.o
+
+# target to build an object file
+src/test/unittest.cc.o:
+	$(MAKE) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/src/test/unittest.cc.o
+.PHONY : src/test/unittest.cc.o
+
+src/test/unittest.i: src/test/unittest.cc.i
+.PHONY : src/test/unittest.i
+
+# target to preprocess a source file
+src/test/unittest.cc.i:
+	$(MAKE) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/src/test/unittest.cc.i
+.PHONY : src/test/unittest.cc.i
+
+src/test/unittest.s: src/test/unittest.cc.s
+.PHONY : src/test/unittest.s
+
+# target to generate assembly for a file
+src/test/unittest.cc.s:
+	$(MAKE) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/src/test/unittest.cc.s
+.PHONY : src/test/unittest.cc.s
 
 # Help Target
 help:
@@ -206,16 +424,42 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... testKSMarketApi"
-	@echo "... lib-log4cplus"
+	@echo "... ksmd"
+	@echo "... KSMD"
+	@echo "... unittest"
 	@echo "... test"
-	@echo "... GTest"
+	@echo "... gtest"
+	@echo "... gtest_main"
+	@echo "... src/main/IDGenerator.o"
+	@echo "... src/main/IDGenerator.i"
+	@echo "... src/main/IDGenerator.s"
+	@echo "... src/main/KSMD.o"
+	@echo "... src/main/KSMD.i"
+	@echo "... src/main/KSMD.s"
+	@echo "... src/main/KSMarketDataApi.o"
+	@echo "... src/main/KSMarketDataApi.i"
+	@echo "... src/main/KSMarketDataApi.s"
+	@echo "... src/main/KSMarketDataConf.o"
+	@echo "... src/main/KSMarketDataConf.i"
+	@echo "... src/main/KSMarketDataConf.s"
+	@echo "... src/main/KSMarketDataOp.o"
+	@echo "... src/main/KSMarketDataOp.i"
+	@echo "... src/main/KSMarketDataOp.s"
+	@echo "... src/main/KSMarketDataSpi.o"
+	@echo "... src/main/KSMarketDataSpi.i"
+	@echo "... src/main/KSMarketDataSpi.s"
 	@echo "... src/main/event.o"
 	@echo "... src/main/event.i"
 	@echo "... src/main/event.s"
-	@echo "... src/main/testKSMarketDataAPI.o"
-	@echo "... src/main/testKSMarketDataAPI.i"
-	@echo "... src/main/testKSMarketDataAPI.s"
+	@echo "... src/main/gobal.o"
+	@echo "... src/main/gobal.i"
+	@echo "... src/main/gobal.s"
+	@echo "... src/test/KSMySQLOpTest.o"
+	@echo "... src/test/KSMySQLOpTest.i"
+	@echo "... src/test/KSMySQLOpTest.s"
+	@echo "... src/test/unittest.o"
+	@echo "... src/test/unittest.i"
+	@echo "... src/test/unittest.s"
 .PHONY : help
 
 

@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Build shared libraries (DLLs).
+BUILD_SHARED_LIBS:BOOL=OFF
+
 //The directory containing a CMake configuration file for Boost.
 Boost_DIR:PATH=Boost_DIR-NOTFOUND
 
@@ -183,20 +186,45 @@ CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Path to a file.
-MYSQL_INCLUDE_DIR:PATH=/usr/include/mysql
+//Path to a program.
+PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 
-//Path to a library.
-MYSQL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libmysqlclient.so
+//Value Computed by CMake
+gtest_BINARY_DIR:STATIC=/root/workspace/github/CPlusProject/KSDataConnector/build/external_lib/gtest
 
-//The directory containing a CMake configuration file for MySQL.
-MySQL_DIR:PATH=MySQL_DIR-NOTFOUND
+//Dependencies for the target
+gtest_LIB_DEPENDS:STATIC=general;-lpthread;
+
+//Value Computed by CMake
+gtest_SOURCE_DIR:STATIC=/root/workspace/github/CPlusProject/KSDataConnector/external_lib/gtest
+
+//Build gtest's sample programs.
+gtest_build_samples:BOOL=OFF
+
+//Build all of gtest's own tests.
+gtest_build_tests:BOOL=OFF
+
+//Disable uses of pthreads in gtest.
+gtest_disable_pthreads:BOOL=OFF
+
+//Use shared (DLL) run-time lib even when Google Test is built
+// as static lib.
+gtest_force_shared_crt:BOOL=OFF
+
+//Dependencies for the target
+gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
+
+//Dependencies for the target
+ksmd_LIB_DEPENDS:STATIC=general;/root/workspace/github/CPlusProject/KSDataConnector/external_lib/liblog4cplus-1.2.so.5;general;/root/workspace/github/CPlusProject/KSDataConnector/external_lib/libmysqlcppconn.so.7;general;/usr/lib/x86_64-linux-gnu/libboost_locale.so;general;/root/workspace/github/CPlusProject/KSDataConnector/external_lib/KSMarketDataAPI/linux64/libksmarketdataapi.so;general;/root/workspace/github/CPlusProject/KSDataConnector/external_lib/KSMarketDataAPI/linux64/libkslkc64r.so;
 
 //Path to a library.
 lkslkc64r:FILEPATH=/root/workspace/github/CPlusProject/KSDataConnector/external_lib/KSMarketDataAPI/linux64/libkslkc64r.so
 
 //Path to a library.
 lksmarketdataapi:FILEPATH=/root/workspace/github/CPlusProject/KSDataConnector/external_lib/KSMarketDataAPI/linux64/libksmarketdataapi.so
+
+//No help, variable specified on the command line.
+test:UNINITIALIZED=true
 
 //Value Computed by CMake
 testKSMarketApi_BINARY_DIR:STATIC=/root/workspace/github/CPlusProject/KSDataConnector/build
@@ -285,6 +313,14 @@ CMAKE_GENERATOR:INTERNAL=Unix Makefiles
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Have symbol pthread_create
+CMAKE_HAVE_LIBC_CREATE:INTERNAL=
+//Have library pthreads
+CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
+//Have library pthread
+CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
+//Have include pthread.h
+CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Start directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/root/workspace/github/CPlusProject/KSDataConnector
@@ -307,7 +343,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=1
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -348,10 +384,12 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: MYSQL_INCLUDE_DIR
-MYSQL_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: MYSQL_LIBRARY
-MYSQL_LIBRARY-ADVANCED:INTERNAL=1
+//Details about finding PythonInterp
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.6()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//ADVANCED property for variable: PYTHON_EXECUTABLE
+PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //Components requested for this build tree.
 _Boost_COMPONENTS_SEARCHED:INTERNAL=locale
 //Last used Boost_INCLUDE_DIR value.

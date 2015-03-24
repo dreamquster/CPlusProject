@@ -1,0 +1,118 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOOL	testKSMarketDataAPI.h	/^typedef int                     BOOL;$/;"	t
+BOOLEAN	testKSMarketDataAPI.h	/^typedef BYTE               BOOLEAN;$/;"	t
+BYTE	testKSMarketDataAPI.h	/^typedef unsigned char       BYTE;$/;"	t
+CALLBACK	testKSMarketDataAPI.h	20;"	d
+CHAR	testKSMarketDataAPI.h	/^typedef char                      CHAR;$/;"	t
+CSampleHandler	testKSMarketDataAPI.cpp	/^	CSampleHandler(CThostFtdcMdApi *pUserApi) : m_pUserApi(pUserApi) {}$/;"	f	class:CSampleHandler	access:public	signature:(CThostFtdcMdApi *pUserApi)
+CSampleHandler	testKSMarketDataAPI.cpp	/^class CSampleHandler : public CThostFtdcMdSpi$/;"	c	file:	inherits:CThostFtdcMdSpi
+CSampleHandler::CSampleHandler	testKSMarketDataAPI.cpp	/^	CSampleHandler(CThostFtdcMdApi *pUserApi) : m_pUserApi(pUserApi) {}$/;"	f	class:CSampleHandler	access:public	signature:(CThostFtdcMdApi *pUserApi)
+CSampleHandler::OnFrontConnected	testKSMarketDataAPI.cpp	/^    virtual void OnFrontConnected()$/;"	f	class:CSampleHandler	access:public	signature:()
+CSampleHandler::OnFrontDisconnected	testKSMarketDataAPI.cpp	/^	virtual void OnFrontDisconnected(int nReason)$/;"	f	class:CSampleHandler	access:public	signature:(int nReason)
+CSampleHandler::OnRspSubMarketData	testKSMarketDataAPI.cpp	/^	virtual void OnRspSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)$/;"	f	class:CSampleHandler	access:public	signature:(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
+CSampleHandler::OnRspUnSubMarketData	testKSMarketDataAPI.cpp	/^	virtual void OnRspUnSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)$/;"	f	class:CSampleHandler	access:public	signature:(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
+CSampleHandler::OnRspUserLogin	testKSMarketDataAPI.cpp	/^	virtual void OnRspUserLogin(CThostFtdcRspUserLoginField *pRspUserLogin, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)$/;"	f	class:CSampleHandler	access:public	signature:(CThostFtdcRspUserLoginField *pRspUserLogin, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
+CSampleHandler::OnRspUserLogout	testKSMarketDataAPI.cpp	/^    virtual void OnRspUserLogout(CThostFtdcUserLogoutField *pUserLogout, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)$/;"	f	class:CSampleHandler	access:public	signature:(CThostFtdcUserLogoutField *pUserLogout, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
+CSampleHandler::OnRtnDepthMarketData	testKSMarketDataAPI.cpp	/^	virtual void OnRtnDepthMarketData(CThostFtdcDepthMarketDataField *pDepthMarketData)$/;"	f	class:CSampleHandler	access:public	signature:(CThostFtdcDepthMarketDataField *pDepthMarketData)
+CSampleHandler::m_chBrokerID	testKSMarketDataAPI.cpp	/^    TThostFtdcBrokerIDType m_chBrokerID;$/;"	m	class:CSampleHandler	file:	access:public
+CSampleHandler::m_chContract	testKSMarketDataAPI.cpp	/^    char m_chContract[80];$/;"	m	class:CSampleHandler	file:	access:public
+CSampleHandler::m_chPassword	testKSMarketDataAPI.cpp	/^    TThostFtdcPasswordType m_chPassword;$/;"	m	class:CSampleHandler	file:	access:public
+CSampleHandler::m_chUserID	testKSMarketDataAPI.cpp	/^    TThostFtdcUserIDType m_chUserID;$/;"	m	class:CSampleHandler	file:	access:public
+CSampleHandler::m_hEvent	testKSMarketDataAPI.cpp	/^    HANDLE m_hEvent;$/;"	m	class:CSampleHandler	file:	access:public
+CSampleHandler::m_nRequestID	testKSMarketDataAPI.cpp	/^    int m_nRequestID;$/;"	m	class:CSampleHandler	file:	access:public
+CSampleHandler::m_pUserApi	testKSMarketDataAPI.cpp	/^	CThostFtdcMdApi *m_pUserApi;$/;"	m	class:CSampleHandler	file:	access:private
+CSampleHandler::~CSampleHandler	testKSMarketDataAPI.cpp	/^	~CSampleHandler() {}$/;"	f	class:CSampleHandler	access:public	signature:()
+DWORD	testKSMarketDataAPI.h	/^typedef unsigned int       DWORD;$/;"	t
+FALSE	testKSMarketDataAPI.h	12;"	d
+FILETIME	testKSMarketDataAPI.h	/^}    FILETIME;$/;"	t	typeref:struct:_FILETIME
+FLOAT	testKSMarketDataAPI.h	/^typedef float                     FLOAT;$/;"	t
+HANDLE	testKSMarketDataAPI.h	/^typedef void                *HANDLE;$/;"	t
+HINSTANCE	testKSMarketDataAPI.h	/^typedef void                *HINSTANCE;$/;"	t
+HMODULE	testKSMarketDataAPI.h	/^typedef void                *HMODULE;$/;"	t
+HighPart	testKSMarketDataAPI.h	/^DWORD HighPart;$/;"	m	struct:_ULARGE_INTEGER::__anon1	access:public
+HighPart	testKSMarketDataAPI.h	/^DWORD HighPart;$/;"	m	struct:_ULARGE_INTEGER::__anon2	access:public
+INFINITE	testKSMarketDataAPI.h	19;"	d
+INT	testKSMarketDataAPI.h	/^typedef int                 INT;$/;"	t
+INVALID_HANDLE_VALUE	testKSMarketDataAPI.h	6;"	d
+INVALID_SOCKET	testKSMarketDataAPI.h	18;"	d
+LONG	testKSMarketDataAPI.h	/^typedef long                      LONG;$/;"	t
+LONGLONG	testKSMarketDataAPI.h	/^typedef long long              LONGLONG;$/;"	t
+LPCSTR	testKSMarketDataAPI.h	/^typedef const char         *LPCSTR;$/;"	t
+LPCWSTR	testKSMarketDataAPI.h	/^typedef const WCHAR        *LPCWSTR;$/;"	t
+LPDWORD	testKSMarketDataAPI.h	/^typedef DWORD              *LPDWORD;$/;"	t
+LPSTR	testKSMarketDataAPI.h	/^typedef char               *LPSTR;$/;"	t
+LPTSTR	testKSMarketDataAPI.h	/^typedef char                *LPTSTR;$/;"	t
+LPVOID	testKSMarketDataAPI.h	/^typedef void                *LPVOID;$/;"	t
+LPWSTR	testKSMarketDataAPI.h	/^typedef WCHAR              *LPWSTR;$/;"	t
+LowPart	testKSMarketDataAPI.h	/^DWORD LowPart;$/;"	m	struct:_ULARGE_INTEGER::__anon1	access:public
+LowPart	testKSMarketDataAPI.h	/^DWORD LowPart;$/;"	m	struct:_ULARGE_INTEGER::__anon2	access:public
+MAXPACKSIZE	testKSMarketDataAPI.h	79;"	d
+MAX_CONNECTION	testKSMarketDataAPI.cpp	/^const int MAX_CONNECTION = 2;$/;"	v
+MAX_PATH	testKSMarketDataAPI.h	8;"	d
+OnFrontConnected	testKSMarketDataAPI.cpp	/^    virtual void OnFrontConnected()$/;"	f	class:CSampleHandler	access:public	signature:()
+OnFrontDisconnected	testKSMarketDataAPI.cpp	/^	virtual void OnFrontDisconnected(int nReason)$/;"	f	class:CSampleHandler	access:public	signature:(int nReason)
+OnRspSubMarketData	testKSMarketDataAPI.cpp	/^	virtual void OnRspSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)$/;"	f	class:CSampleHandler	access:public	signature:(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
+OnRspUnSubMarketData	testKSMarketDataAPI.cpp	/^	virtual void OnRspUnSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)$/;"	f	class:CSampleHandler	access:public	signature:(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
+OnRspUserLogin	testKSMarketDataAPI.cpp	/^	virtual void OnRspUserLogin(CThostFtdcRspUserLoginField *pRspUserLogin, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)$/;"	f	class:CSampleHandler	access:public	signature:(CThostFtdcRspUserLoginField *pRspUserLogin, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
+OnRspUserLogout	testKSMarketDataAPI.cpp	/^    virtual void OnRspUserLogout(CThostFtdcUserLogoutField *pUserLogout, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)$/;"	f	class:CSampleHandler	access:public	signature:(CThostFtdcUserLogoutField *pUserLogout, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
+OnRtnDepthMarketData	testKSMarketDataAPI.cpp	/^	virtual void OnRtnDepthMarketData(CThostFtdcDepthMarketDataField *pDepthMarketData)$/;"	f	class:CSampleHandler	access:public	signature:(CThostFtdcDepthMarketDataField *pDepthMarketData)
+PFLOAT	testKSMarketDataAPI.h	/^typedef FLOAT                  *PFLOAT;$/;"	t
+PUCHAR	testKSMarketDataAPI.h	/^typedef unsigned char       *PUCHAR;$/;"	t
+PUINT	testKSMarketDataAPI.h	/^typedef unsigned int        *PUINT;$/;"	t
+PULARGE_INTEGER	testKSMarketDataAPI.h	/^*PULARGE_INTEGER;$/;"	t	typeref:union:_ULARGE_INTEGER
+PULONGLONG	testKSMarketDataAPI.h	/^typedef ULONGLONG           *PULONGLONG;$/;"	t
+PUSHORT	testKSMarketDataAPI.h	/^typedef unsigned short      *PUSHORT;$/;"	t
+PVOID	testKSMarketDataAPI.h	/^typedef void                *PVOID;$/;"	t
+QuadPart	testKSMarketDataAPI.h	/^ULONGLONG QuadPart;$/;"	m	union:_ULARGE_INTEGER	access:public
+SHORT	testKSMarketDataAPI.h	/^typedef short                    SHORT;$/;"	t
+SIZE_T	testKSMarketDataAPI.h	/^typedef UINT_PTR           SIZE_T;$/;"	t
+TRUE	testKSMarketDataAPI.h	11;"	d
+UCHAR	testKSMarketDataAPI.h	/^typedef unsigned char       UCHAR;$/;"	t
+UINT	testKSMarketDataAPI.h	/^typedef unsigned int        UINT;$/;"	t
+UINT_PTR	testKSMarketDataAPI.h	/^typedef unsigned long      UINT_PTR;$/;"	t
+ULARGE_INTEGER	testKSMarketDataAPI.h	/^} ULARGE_INTEGER,$/;"	t	typeref:union:_ULARGE_INTEGER
+ULONG	testKSMarketDataAPI.h	/^typedef unsigned long       ULONG;$/;"	t
+ULONGLONG	testKSMarketDataAPI.h	/^typedef unsigned long long  ULONGLONG;$/;"	t
+USHORT	testKSMarketDataAPI.h	/^typedef unsigned short      USHORT;$/;"	t
+USN	testKSMarketDataAPI.h	/^typedef LONGLONG           USN;$/;"	t
+VOID	testKSMarketDataAPI.h	/^typedef void                VOID;$/;"	t
+WCHAR	testKSMarketDataAPI.h	/^typedef wchar_t            WCHAR;$/;"	t
+WINAPI	testKSMarketDataAPI.h	21;"	d
+WORD	testKSMarketDataAPI.h	/^typedef unsigned short      WORD;$/;"	t
+_FILETIME	testKSMarketDataAPI.h	/^typedef struct _FILETIME {$/;"	s
+_FILETIME::dwHighDateTime	testKSMarketDataAPI.h	/^DWORD dwHighDateTime;$/;"	m	struct:_FILETIME	access:public
+_FILETIME::dwLowDateTime	testKSMarketDataAPI.h	/^DWORD dwLowDateTime;$/;"	m	struct:_FILETIME	access:public
+_MAX_PATH	testKSMarketDataAPI.h	7;"	d
+_ULARGE_INTEGER	testKSMarketDataAPI.h	/^typedef union _ULARGE_INTEGER {$/;"	u
+_ULARGE_INTEGER::QuadPart	testKSMarketDataAPI.h	/^ULONGLONG QuadPart;$/;"	m	union:_ULARGE_INTEGER	access:public
+_ULARGE_INTEGER::__anon1::HighPart	testKSMarketDataAPI.h	/^DWORD HighPart;$/;"	m	struct:_ULARGE_INTEGER::__anon1	access:public
+_ULARGE_INTEGER::__anon1::LowPart	testKSMarketDataAPI.h	/^DWORD LowPart;$/;"	m	struct:_ULARGE_INTEGER::__anon1	access:public
+_ULARGE_INTEGER::__anon2::HighPart	testKSMarketDataAPI.h	/^DWORD HighPart;$/;"	m	struct:_ULARGE_INTEGER::__anon2	access:public
+_ULARGE_INTEGER::__anon2::LowPart	testKSMarketDataAPI.h	/^DWORD LowPart;$/;"	m	struct:_ULARGE_INTEGER::__anon2	access:public
+_ULARGE_INTEGER::u	testKSMarketDataAPI.h	/^} u;$/;"	m	union:_ULARGE_INTEGER	typeref:struct:_ULARGE_INTEGER::__anon2	access:public
+__TEST_KSMARKET_DATA_API_H__	testKSMarketDataAPI.h	2;"	d
+__cdecl	testKSMarketDataAPI.h	15;"	d
+__declspec	testKSMarketDataAPI.h	14;"	d
+__stdcall	testKSMarketDataAPI.h	13;"	d
+byte	testKSMarketDataAPI.h	/^typedef unsigned char byte;$/;"	t
+dwHighDateTime	testKSMarketDataAPI.h	/^DWORD dwHighDateTime;$/;"	m	struct:_FILETIME	access:public
+dwLowDateTime	testKSMarketDataAPI.h	/^DWORD dwLowDateTime;$/;"	m	struct:_FILETIME	access:public
+initialize_modules	testKSMarketDataAPI.cpp	/^void initialize_modules() {$/;"	f	signature:()
+m_chBrokerID	testKSMarketDataAPI.cpp	/^    TThostFtdcBrokerIDType m_chBrokerID;$/;"	m	class:CSampleHandler	file:	access:public
+m_chContract	testKSMarketDataAPI.cpp	/^    char m_chContract[80];$/;"	m	class:CSampleHandler	file:	access:public
+m_chPassword	testKSMarketDataAPI.cpp	/^    TThostFtdcPasswordType m_chPassword;$/;"	m	class:CSampleHandler	file:	access:public
+m_chUserID	testKSMarketDataAPI.cpp	/^    TThostFtdcUserIDType m_chUserID;$/;"	m	class:CSampleHandler	file:	access:public
+m_hEvent	testKSMarketDataAPI.cpp	/^    HANDLE m_hEvent;$/;"	m	class:CSampleHandler	file:	access:public
+m_nRequestID	testKSMarketDataAPI.cpp	/^    int m_nRequestID;$/;"	m	class:CSampleHandler	file:	access:public
+m_pUserApi	testKSMarketDataAPI.cpp	/^	CThostFtdcMdApi *m_pUserApi;$/;"	m	class:CSampleHandler	file:	access:private
+main	MySqlClient.cpp	/^int main(int argc, char ** argv) {$/;"	f	signature:(int argc, char ** argv)
+main	testKSMarketDataAPI.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	unittest.cc	/^int main(int argc, char const* argv[])$/;"	f	signature:(int argc, char const* argv[])
+max	testKSMarketDataAPI.h	16;"	d
+u	testKSMarketDataAPI.h	/^} u;$/;"	m	union:_ULARGE_INTEGER	typeref:struct:_ULARGE_INTEGER::__anon2	access:public
+~CSampleHandler	testKSMarketDataAPI.cpp	/^	~CSampleHandler() {}$/;"	f	class:CSampleHandler	access:public	signature:()
