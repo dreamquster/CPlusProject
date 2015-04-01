@@ -25,4 +25,12 @@ TEST(Leetcode, maxProduct) {
     int A[] = {2,3,-2,4};
     int res = maxProduct(A, 4);
     ASSERT_EQ(res, 6);
+
+    int o[] = {-2};
+    res = maxProduct(o,1);
+    ASSERT_EQ(res, -2);
+
+    int w[] = {-4, -3};
+    res = maxProduct(w, 2);
+    ASSERT_EQ(res, 12);
 }
