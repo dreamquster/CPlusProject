@@ -3,4 +3,5 @@
 #include "common.h"
 void reverseWords(char* s);
 
+int maxProduct(int A[], int n);
 #endif
