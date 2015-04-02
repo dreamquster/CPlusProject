@@ -1,6 +1,7 @@
 #ignore build,bin directory
 build/
 bin/
+deps/
 
 
 
