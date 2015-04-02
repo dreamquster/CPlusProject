@@ -4,4 +4,6 @@
 void reverseWords(char* s);
 
 int maxProduct(int A[], int n);
+
+int findMin(vector<int> &num);
 #endif

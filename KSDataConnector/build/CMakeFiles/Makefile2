@@ -126,12 +126,12 @@ clean: CMakeFiles/ksmd.dir/clean
 # Target rules for target CMakeFiles/unittest.dir
 
 # All Build rule for target.
-CMakeFiles/unittest.dir/all: CMakeFiles/ksmd.dir/all
 CMakeFiles/unittest.dir/all: external_lib/gtest/CMakeFiles/gtest.dir/all
+CMakeFiles/unittest.dir/all: CMakeFiles/ksmd.dir/all
 CMakeFiles/unittest.dir/all: external_lib/gtest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/depend
 	$(MAKE) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles  11 12
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles  11 12 13
 	@echo "Built target unittest"
 .PHONY : CMakeFiles/unittest.dir/all
 
@@ -141,7 +141,7 @@ all: CMakeFiles/unittest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/unittest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/unittest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/workspace/github/CPlusProject/KSDataConnector/build/CMakeFiles 0
 .PHONY : CMakeFiles/unittest.dir/rule

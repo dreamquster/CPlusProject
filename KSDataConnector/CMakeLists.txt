@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.2)
 include(ExternalProject)
 
 set(CMAKE_BUILD_TYPE DEBUG)
+#SET(CMAKE_CXX_FLAGS "-std=c++11") # Add c++11 functionality  
 set(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} /usr/local/lib 
     ${PROJECT_SOURCE_DIR}/external_lib/)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
@@ -44,7 +45,7 @@ if (test)
         ${KSMD_SRC_DIR})
     #Unit Tests
     add_executable(unittest src/test/unittest.cc
-            src/test/KSMySQLOpTest.cc)
+            src/test/KSMySQLOpTest.cc src/test/C11Test.cc)
     #add dependency libraries 
     target_link_libraries(unittest gtest gtest_main ksmd)# ${lksmarketdataapi} ${lkslkc64r})
     

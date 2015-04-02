@@ -368,6 +368,30 @@ src/main/gobal.cc.s:
 	$(MAKE) -f CMakeFiles/ksmd.dir/build.make CMakeFiles/ksmd.dir/src/main/gobal.cc.s
 .PHONY : src/main/gobal.cc.s
 
+src/test/C11Test.o: src/test/C11Test.cc.o
+.PHONY : src/test/C11Test.o
+
+# target to build an object file
+src/test/C11Test.cc.o:
+	$(MAKE) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/src/test/C11Test.cc.o
+.PHONY : src/test/C11Test.cc.o
+
+src/test/C11Test.i: src/test/C11Test.cc.i
+.PHONY : src/test/C11Test.i
+
+# target to preprocess a source file
+src/test/C11Test.cc.i:
+	$(MAKE) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/src/test/C11Test.cc.i
+.PHONY : src/test/C11Test.cc.i
+
+src/test/C11Test.s: src/test/C11Test.cc.s
+.PHONY : src/test/C11Test.s
+
+# target to generate assembly for a file
+src/test/C11Test.cc.s:
+	$(MAKE) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/src/test/C11Test.cc.s
+.PHONY : src/test/C11Test.cc.s
+
 src/test/KSMySQLOpTest.o: src/test/KSMySQLOpTest.cc.o
 .PHONY : src/test/KSMySQLOpTest.o
 
@@ -454,6 +478,9 @@ help:
 	@echo "... src/main/gobal.o"
 	@echo "... src/main/gobal.i"
 	@echo "... src/main/gobal.s"
+	@echo "... src/test/C11Test.o"
+	@echo "... src/test/C11Test.i"
+	@echo "... src/test/C11Test.s"
 	@echo "... src/test/KSMySQLOpTest.o"
 	@echo "... src/test/KSMySQLOpTest.i"
 	@echo "... src/test/KSMySQLOpTest.s"

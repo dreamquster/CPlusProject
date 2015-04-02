@@ -15,7 +15,7 @@ include_directories("${PROJECT_SOURCE_DIR}/src/include/" ${Boost_INCLUDE_DIRS})
 
 set(LeetCode_SRC_DIR ${PROJECT_SOURCE_DIR}/src/main)
 set(LeetCode_SRC  ${LeetCode_SRC_DIR}/reverseWord.cc 
-    ${LeetCode_SRC_DIR}/maxProduct.cc) 
+    ${LeetCode_SRC_DIR}/maxProduct.cc ${LeetCode_SRC_DIR}/minimumRotatedSortArray.cc) 
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/deps)
 add_library(leetcode  STATIC ${LeetCode_SRC})
 set(liblog4cplus "${PROJECT_SOURCE_DIR}/deps/liblog4cplus-1.2.so.5")
